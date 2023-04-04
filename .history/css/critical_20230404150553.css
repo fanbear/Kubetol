@@ -1,0 +1,16 @@
+/* Base container */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+/* Header section */
+header {
+    height: 133px;
+    background-color: #ffffff;
+}

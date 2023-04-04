@@ -1,0 +1,21 @@
+/* Language - animation */
+@keyframes language-animation {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+        z-index: -1;
+    }
+
+    50% {
+        transform: scale(0.5);
+        opacity: 0.5;
+        z-index: 9999;
+    }
+
+    50% {
+        transform: scale(1);
+        opacity: 1;
+        z-index: 9999;
+    }
+
+}

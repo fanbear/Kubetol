@@ -1,0 +1,59 @@
+@import url('variables.css');
+
+/* Base container */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-bettwen {
+    justify-content: space-between;
+}
+
+.flex-evenly {
+    justify-content: space-evenly;
+}
+
+.flex-around {
+    justify-content: space-around;
+}
+
+.flex-ac {
+    align-items: center;
+}
+
+body {
+    font-size: var(--font-25);
+    color: var(--dark-color)
+}
+
+a {
+    font-size: var(--font-25);
+}
+
+/* Header section */
+header {
+    height: 133px;
+    background-color: #ffffff;
+}
+
+.lang-list {
+    color: var(--dark-color);
+    list-style: none;
+}
+
+.lang-list__active {
+    color: var(--yellow-color);
+}
