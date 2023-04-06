@@ -3,6 +3,11 @@
 @import url('fonts.css');
 
 
+
+/* Setting ---------------------------------------------
+--------------------------------------------------------
+-------------------------------------------------------- */
+
 html, body {
     margin: 0;
     padding: 0;
@@ -13,8 +18,8 @@ html, body {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1180px;
-    min-width: 1180px;
+    max-width: var(--width);
+    min-width: var(--width);
     margin: 0 auto;
     padding: 0 10px;
     height: 100%;
@@ -76,6 +81,15 @@ a {
 a:hover {
     transition: 0.4s;
 }
+
+.slider-item {
+    max-height: 1080px;
+    margin: -15px 0;
+}
+
+/* -------------------------------------------------------------------------
+----------------------------------------------------------------------------
+---------------------------------------------------------------------------- */
 
 /* Header section ---------------------------
 ---------------------------------------------
@@ -222,7 +236,8 @@ header {
     position: absolute;
     background-color: var(--dark-color);
     border: 30px;
-    padding: 30px 18px 30px 0;
+    padding-top: 35px;
+    padding-right: 16px;
     min-width: 200px;
     justify-content: flex-end;
     border-radius: 30px;
@@ -232,6 +247,9 @@ header {
     opacity: 0;
     z-index: -1;
     transition: 0.6s;
+    min-height: 200px;
+    min-width: 220px;
+    height: auto;
 }
 
 .header-menu__list ul {

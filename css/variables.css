@@ -11,4 +11,7 @@
     --font-33: 33.3px;
     --font-43: 45.83px;
     --font-100: 100.1px;
+
+    /* Container width */
+    --width: 1180px;
 }
