@@ -53,6 +53,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     }
 
+    var slideUp = {
+        distance: '150%',
+        origin: 'bottom',
+        opacity: null
+    };
+    ScrollReveal().reveal('.bestseller-title', slideUp);
+    ScrollReveal({ reset: true });
 })
 
 $(document).ready(function () {
@@ -72,10 +79,10 @@ $(document).ready(function () {
     //Kubetelo shipped sldier
     $(".kubetol-shipped__slider").owlCarousel({
         items: 1,
-        loop: true,
+        loop: false,
         dots: false,
         nav: true,
-        autoplay: true,
+        autoplay: false,
         autoplayTimeout: 5000,
         autoplayHoverPause: true
     });
@@ -85,7 +92,7 @@ $(document).ready(function () {
         loop: true,
         dots: false,
         nav: true,
-        autoplay: true,
+        autoplay: false,
         autoplayTimeout: 5000,
         autoplayHoverPause: true
     });
@@ -95,40 +102,8 @@ $(document).ready(function () {
         items: 1,
         loop: false,
         nav: true,
-        autoplay: true,
-        autoplayTimeout: 3000,
+        autoplay: false,
+        autoplayTimeout: 5000,
         autoplayHoverPause: true
     });
-
-
-
-    //digits animation
-    $(window).scroll(function () {
-        $('.number').each(function () {
-            const min = $('.number').offset().top - 600;
-            const max = $('.number').offset().top - 500;
-            if (isScrolledIntoView($(this)) > min && isScrolledIntoView($(this)) < max) {
-                animateNumbers($(this));
-            }
-        });
-    });
-
-    function animateNumbers(element) {
-        const startValue = parseInt(element.data('start'));
-        const endValue = parseInt(element.data('end'));
-        const duration = 2000;
-
-        $({ Counter: startValue }).animate({ Counter: endValue }, {
-            duration: duration,
-            easing: 'swing',
-            step: function () {
-                element.text(Math.ceil(this.Counter));
-            }
-        });
-    }
-
-    function isScrolledIntoView(element) {
-        const viewportTop = $(window).scrollTop();
-        return viewportTop;
-    }
 });

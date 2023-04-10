@@ -96,7 +96,7 @@ $(document).ready(function () {
         loop: false,
         nav: true,
         autoplay: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 5000,
         autoplayHoverPause: true
     });
 
@@ -105,9 +105,7 @@ $(document).ready(function () {
     //digits animation
     $(window).scroll(function () {
         $('.number').each(function () {
-            const min = $('.number').offset().top - 600;
-            const max = $('.number').offset().top - 500;
-            if (isScrolledIntoView($(this)) > min && isScrolledIntoView($(this)) < max) {
+            if (isScrolledIntoView($(this)) == $(this).offset()) {
                 animateNumbers($(this));
             }
         });
@@ -129,6 +127,11 @@ $(document).ready(function () {
 
     function isScrolledIntoView(element) {
         const viewportTop = $(window).scrollTop();
+        console.log(viewportTop);
+        // const viewportBottom = viewportTop + $(window).height();
+        // const elementTop = element.offset().top;
+        // const elementBottom = elementTop + element.outerHeight();
+
         return viewportTop;
     }
 });

@@ -348,9 +348,8 @@
     color: var(--yellow-color);
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: -80px;
+    margin-bottom: -60px;
     justify-content: flex-end;
-    align-items: center;
     text-align: right;
     width: 100%;
 }
@@ -557,7 +556,7 @@
 .why-as__title {
     margin-top: 60px;
     font-size: var(--font-45);
-    font-weight: 900;
+    font-weight: bold;
     color: var(--white-color);
     text-transform: uppercase;
 }
@@ -637,7 +636,6 @@
     font-size: var(--font-25);
     box-sizing: border-box;
     font-family: "Gilroy";
-    color: var(--white-color);
 }
 
 .main-from__item textarea {
@@ -650,8 +648,6 @@
     padding-top: 18px;
     font-family: "Gilroy";
     box-sizing: border-box;
-    color: var(--white-color);
-    border: 0;
 }
 
 .main-from__title {

@@ -96,39 +96,7 @@ $(document).ready(function () {
         loop: false,
         nav: true,
         autoplay: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 5000,
         autoplayHoverPause: true
     });
-
-
-
-    //digits animation
-    $(window).scroll(function () {
-        $('.number').each(function () {
-            const min = $('.number').offset().top - 600;
-            const max = $('.number').offset().top - 500;
-            if (isScrolledIntoView($(this)) > min && isScrolledIntoView($(this)) < max) {
-                animateNumbers($(this));
-            }
-        });
-    });
-
-    function animateNumbers(element) {
-        const startValue = parseInt(element.data('start'));
-        const endValue = parseInt(element.data('end'));
-        const duration = 2000;
-
-        $({ Counter: startValue }).animate({ Counter: endValue }, {
-            duration: duration,
-            easing: 'swing',
-            step: function () {
-                element.text(Math.ceil(this.Counter));
-            }
-        });
-    }
-
-    function isScrolledIntoView(element) {
-        const viewportTop = $(window).scrollTop();
-        return viewportTop;
-    }
 });

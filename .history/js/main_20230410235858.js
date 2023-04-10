@@ -96,7 +96,7 @@ $(document).ready(function () {
         loop: false,
         nav: true,
         autoplay: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 5000,
         autoplayHoverPause: true
     });
 
@@ -105,30 +105,37 @@ $(document).ready(function () {
     //digits animation
     $(window).scroll(function () {
         $('.number').each(function () {
-            const min = $('.number').offset().top - 600;
-            const max = $('.number').offset().top - 500;
-            if (isScrolledIntoView($(this)) > min && isScrolledIntoView($(this)) < max) {
+            const min = $('.number').offset().top - 500;
+            const max = $('.number').offset().top - 490;
+            console.log(top);
+            if (isScrolledIntoView($(this)) > top) && {
+                console.log('asd');
                 animateNumbers($(this));
-            }
+    }
         });
     });
 
-    function animateNumbers(element) {
-        const startValue = parseInt(element.data('start'));
-        const endValue = parseInt(element.data('end'));
-        const duration = 2000;
+function animateNumbers(element) {
+    const startValue = parseInt(element.data('start'));
+    const endValue = parseInt(element.data('end'));
+    const duration = 2000;
 
-        $({ Counter: startValue }).animate({ Counter: endValue }, {
-            duration: duration,
-            easing: 'swing',
-            step: function () {
-                element.text(Math.ceil(this.Counter));
-            }
-        });
-    }
+    $({ Counter: startValue }).animate({ Counter: endValue }, {
+        duration: duration,
+        easing: 'swing',
+        step: function () {
+            element.text(Math.ceil(this.Counter));
+        }
+    });
+}
 
-    function isScrolledIntoView(element) {
-        const viewportTop = $(window).scrollTop();
-        return viewportTop;
-    }
+function isScrolledIntoView(element) {
+    const viewportTop = $(window).scrollTop();
+    console.log(viewportTop);
+    // const viewportBottom = viewportTop + $(window).height();
+    // const elementTop = element.offset().top;
+    // const elementBottom = elementTop + element.outerHeight();
+
+    return viewportTop;
+}
 });

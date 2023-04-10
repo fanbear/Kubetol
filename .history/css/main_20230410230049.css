@@ -344,15 +344,12 @@
 }
 
 .kubetol-shipped__title {
+    margin-left: auto;
     font-size: var(--font-45);
     color: var(--yellow-color);
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: -80px;
-    justify-content: flex-end;
-    align-items: center;
-    text-align: right;
-    width: 100%;
+    margin-bottom: -60px;
 }
 
 .kubetol-shipped__slider {
@@ -397,13 +394,11 @@
 
 /* Bestseller main page */
 .bestseller {
-    margin-top: 100px;
-    padding-top: 110px;
+    padding-top: 210px;
     padding-bottom: 110px;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .bestseller-title {
@@ -541,7 +536,7 @@
     transition: 0.4s;
 }
 
-.bestseller-button a:hover {
+.bestseller-button:hover a {
     color: var(--dark-color);
     background-color: var(--yellow-color);
     transition: 0.4s;
@@ -557,7 +552,7 @@
 .why-as__title {
     margin-top: 60px;
     font-size: var(--font-45);
-    font-weight: 900;
+    font-weight: bold;
     color: var(--white-color);
     text-transform: uppercase;
 }
@@ -637,7 +632,6 @@
     font-size: var(--font-25);
     box-sizing: border-box;
     font-family: "Gilroy";
-    color: var(--white-color);
 }
 
 .main-from__item textarea {
@@ -650,8 +644,6 @@
     padding-top: 18px;
     font-family: "Gilroy";
     box-sizing: border-box;
-    color: var(--white-color);
-    border: 0;
 }
 
 .main-from__title {

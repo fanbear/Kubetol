@@ -96,18 +96,16 @@ $(document).ready(function () {
         loop: false,
         nav: true,
         autoplay: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 5000,
         autoplayHoverPause: true
     });
 
 
 
     //digits animation
-    $(window).scroll(function () {
+    $(window).one(function () {
         $('.number').each(function () {
-            const min = $('.number').offset().top - 600;
-            const max = $('.number').offset().top - 500;
-            if (isScrolledIntoView($(this)) > min && isScrolledIntoView($(this)) < max) {
+            if (isScrolledIntoView($(this))) {
                 animateNumbers($(this));
             }
         });
@@ -129,6 +127,10 @@ $(document).ready(function () {
 
     function isScrolledIntoView(element) {
         const viewportTop = $(window).scrollTop();
-        return viewportTop;
+        const viewportBottom = viewportTop + $(window).height();
+        const elementTop = element.offset().top;
+        const elementBottom = elementTop + element.outerHeight();
+
+        return elementTop < viewportBottom && elementBottom > viewportTop;
     }
 });

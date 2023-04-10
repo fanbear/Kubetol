@@ -637,7 +637,6 @@
     font-size: var(--font-25);
     box-sizing: border-box;
     font-family: "Gilroy";
-    color: var(--white-color);
 }
 
 .main-from__item textarea {
@@ -650,8 +649,6 @@
     padding-top: 18px;
     font-family: "Gilroy";
     box-sizing: border-box;
-    color: var(--white-color);
-    border: 0;
 }
 
 .main-from__title {
