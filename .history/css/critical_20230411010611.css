@@ -99,7 +99,7 @@ a:hover {
     margin: 0 auto;
     z-index: 9999;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
 }
@@ -118,15 +118,6 @@ a:hover {
     height: 80px;
     animation: var(--animation-spin);
     margin: 0 auto;
-    position: relative;
-    z-index: 1;
-}
-
-.preload-img {
-    margin-bottom: auto;
-    margin-top: 60px;
-    position: relative;
-    z-index: 1;
 }
 
 .preload-img img {
@@ -134,18 +125,6 @@ a:hover {
     height: auto;
 }
 
-.preload-text {
-    font-size: 40px;
-    color: white;
-    margin-bottom: 10%;
-    margin-top: 60px;
-    position: relative;
-    z-index: 1;
-}
-
-.preload .video-slider__overlay {
-    z-index: -1;
-}
 
 /* -------------------------------------------------------------------------
 ----------------------------------------------------------------------------

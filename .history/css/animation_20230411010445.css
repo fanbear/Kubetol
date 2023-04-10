@@ -1,7 +1,7 @@
 :root {
     --animation-language: language-animation 0.6s ease-in;
     --animation-spin: spin 1s linear infinite;
-    --animation-preload: preload-hover 0.8s linear;
+    --animation-preload: preload-hover 1s linear;
 }
 
 

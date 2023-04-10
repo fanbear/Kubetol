@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
         video.querySelector('source').setAttribute('src', videoData);
         setTimeout(() => {
             video.play();
-        }, 5000)
+        }, 10000)
 
     }
 
