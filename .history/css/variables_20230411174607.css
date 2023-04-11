@@ -14,7 +14,7 @@
 
     /* Container width */
     --width: 1180px;
-    --container-padding: 0 15px;
+    --container-padding: 0;
 }
 
 /* Media query for tablets */

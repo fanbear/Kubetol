@@ -104,9 +104,8 @@ $(document).ready(function () {
         items: 4,
         stagePadding: 50,
         loop: true,
-        margin: 30,
+        margin: 10,
         nav: true,
-        autoplay: true,
         autoplayTimeout: 3000,
         autoplayHoverPause: true
     });

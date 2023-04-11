@@ -101,10 +101,8 @@ $(document).ready(function () {
     });
     //News slider
     $(".news-slide").owlCarousel({
-        items: 4,
-        stagePadding: 50,
-        loop: true,
-        margin: 30,
+        items: 1,
+        loop: false,
         nav: true,
         autoplay: true,
         autoplayTimeout: 3000,

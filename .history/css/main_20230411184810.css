@@ -818,7 +818,6 @@ footer {
 
 .footer-item__link {
     flex-wrap: wrap;
-    padding: 0;
 }
 
 .footer-item__link li {
@@ -845,8 +844,7 @@ footer {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border: 2px solid var(--yellow-color);
-    margin-right: 30px;
+    border: 2px solid transparent;
 }
 
 .footer-item__social a:hover {

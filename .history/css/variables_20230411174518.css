@@ -14,14 +14,12 @@
 
     /* Container width */
     --width: 1180px;
-    --container-padding: 0 15px;
 }
 
 /* Media query for tablets */
 @media screen and (max-width: 768px) {
     :root {
         --width: width: 100%;
-        --container-padding: 0 20px;
     }
 }
 
@@ -29,6 +27,5 @@
 @media screen and (max-width: 480px) {
     :root {
         --width: width: 100%;
-        --container-padding: 0 20px;
     }
 }

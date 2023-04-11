@@ -35,10 +35,10 @@
             <div class="header-email"><a href="mailto:kubetol@seznam.cz">kubetol@seznam.cz</a></div>
             <div class="header-action flex flex-bettwen">
                 <div class="header-search flex flex-ac">
-                    <img src="img/search.webp" alt="KUBETOL search" width="30" height="30">
+                    <img src="./img/search.webp" alt="KUBETOL search" width="30" height="30">
                 </div>
                 <div class="header-phone flex flex-ac">
-                    <img src="img/phone.webp" alt="KUBETOL Phone" width="30" height="30">
+                    <img src="/img/phone.webp" alt="KUBETOL Phone" width="30" height="30">
                 </div>
                 <div class="header-menu flex flex-ac flex-center">
                     <span></span>
@@ -75,6 +75,10 @@
                             <div class="video-wrapper__button flex flex-ac flex-center btn-h-yellow"><a
                                     href="/">Детальніше</a></div>
                         </div>
+                        <div class="slider-video__text">
+                            <div class="slider-video__text-big">Přírozenos</div>
+                            <div class="slider-video__text_small">pro potěšení</div>
+                        </div>
                     </div>
                     <div class="video-slide__yellow-figure">
                         <img src="img/video-slider-flower.webp" alt="" width="529" height="529">
@@ -94,6 +98,10 @@
                             <div class="video-wrapper__button flex flex-ac flex-center btn-h-yellow"><a
                                     href="/">Детальніше</a></div>
                         </div>
+                        <div class="slider-video__text">
+                            <div class="slider-video__text-big">Справжнє</div>
+                            <div class="slider-video__text_small">Сонячне жито</div>
+                        </div>
                     </div>
                     <div class="video-slide__yellow-figure">
                         <img src="img/video-slider-flower.webp" alt="" width="529" height="529">
@@ -112,6 +120,10 @@
                             </div>
                             <div class="video-wrapper__button flex flex-ac flex-center btn-h-yellow"><a
                                     href="/">Детальніше</a></div>
+                        </div>
+                        <div class="slider-video__text">
+                            <div class="slider-video__text-big">Блакитне</div>
+                            <div class="slider-video__text_small">Без Хмарне</div>
                         </div>
                     </div>
                     <div class="video-slide__yellow-figure">
@@ -405,20 +417,14 @@
         </section>
         <section class="trust-us">
             <div class="flex-container">
-                <div class="trust-us__title" data-aos="fade-right" data-aos-duration="1000"
-                    data-aos-easing="ease-in-sine">НАМ ДОВІРЯЮТЬ</div>
+                <div class="trust-us__title">НАМ ДОВІРЯЮТЬ</div>
             </div>
             <div class="flex-container">
                 <div class="trust-us__wrapper flex flex-ac flex-bettwen">
-                    <img data-aos="zoom-in" data-aos-duration="3000" src="img/trust-1.webp" alt="trus-us">
-                    <img data-aos="zoom-in" data-aos-duration="3000" src="img/trust-2.webp" alt="trus-us">
-                    <img data-aos="zoom-in" data-aos-duration="3000" src="img/trust-3.webp" alt="trus-us">
-                    <img data-aos="zoom-in" data-aos-duration="3000" src="img/trust-4.webp" alt="trus-us">
-                    <img data-aos="zoom-in" data-aos-duration="3000" src="img/trust-2.webp" alt="trus-us">
-                    <img data-aos="zoom-in" data-aos-duration="3000" src="img/trust-1.webp" alt="trus-us">
-                    <img data-aos="zoom-in" data-aos-duration="3000" src="img/trust-4.webp" alt="trus-us">
-                    <img data-aos="zoom-in" data-aos-duration="3000" src="img/trust-3.webp" alt="trus-us">
-
+                    <a href=""><img src="img/trust-1.webp" alt="trus-us"></a>
+                    <a href=""><img src="img/trust-2.webp" alt="trus-us"></a>
+                    <a href=""><img src="img/trust-3.webp" alt="trus-us"></a>
+                    <a href=""><img src="img/trust-4.webp" alt="trus-us"></a>
                 </div>
             </div>
         </section>
@@ -426,12 +432,10 @@
             <div class="flex-container">
                 <div class="main-from__wrapper flex flex-ac flex-bettwen">
                     <div class="main-from__item">
-                        <div class="main-from__title" data-aos="fade-right" data-aos-duration="2000">Напишіть нам</div>
-                        <div class="main-from__subtitle" data-aos="fade-up" data-aos-duration="3000">Ваші питання чи
-                            пропозиції</div>
-                        <div class="main-from__text" data-aos="fade-up" data-aos="fade-right" data-aos-duration="5000">
-                            Залиште свої контакти та ми обов'язково з вами зв'яжемось</div>
-                        <button class="main-from__btn" data-aos-duration="5000">Надіслати</button>
+                        <div class="main-from__title">Напишіть нам</div>
+                        <div class="main-from__subtitle">Ваші питання чи пропозиції</div>
+                        <div class="main-from__text">Залиште свої контакти та ми обов'язково з вами зв'яжемось</div>
+                        <button class="main-from__btn">Надіслати</button>
                     </div>
                     <div class="main-from__item">
                         <input type="text" placeholder="Ім'я">
@@ -550,75 +554,38 @@
         </section>
         <section class="news">
             <div class="flex-container">
-                <div class="news-title" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-                    Останні новини</div>
+                <div class="news-title">Останні новини</div>
             </div>
             <div class="owl-carousel news-slide">
 
-                <div class="slider-item" data-aos="fade-up" data-aos-anchor-placement="center-center"
-                    data-aos-duration="3000">
-                    <img src="/img/news-img-1.webp" alt="Kubetelo - news" width="360" height="390">
-                    <div class="news-slide__title"><a href="/">Найбільший виробник дріжджів виходить на індійський ринок
-                            04 Жовтня 2017</a></div>
-                    <div class="news-slide__text">ТМ «Львівські дріжджі», має намір експортувати свою продукцію в Індію.
-                    </div>
-                </div>
-                <div class="slider-item" data-aos="fade-up" data-aos-anchor-placement="center-center"
-                    data-aos-duration="3000">
-                    <img src="/img/news-img-2.webp" alt="Kubetelo - news" width="360" height="390">
+                <div class="slider-item">
+                    <img src="/img/news-img-1.webp" alt="Kubetelo - news">
                     <div class="news-slide__title"><a href="/">Активні кормові дріжджі</a></div>
                     <div class="news-slide__text">Як активні кормові дріжджі нівелюють вплив шкідливої мікрофлори в
                         кишківнику та сприяють збільшенню приростів поросят</div>
                 </div>
-                <div class="slider-item" data-aos="fade-up" data-aos-anchor-placement="center-center"
-                    data-aos-duration="3000">
-                    <img src="/img/news-img-3.webp" alt="Kubetelo - news" width="360" height="390">
-                    <div class="news-slide__title"><a href="/">Озвучено схеми, що діють на зерновому коридорі, які
-                            розоряють аграріїв</a></div>
-                    <div class="news-slide__text">“Зерновий коридор” зупинився. Останнім часом збільшилися черги з
-                        кораблів, які чекають на проходження через Босфор.</div>
+                <div class="slider-item">
+                    <img src="/img/news-img-2.webp" alt="Kubetelo - news">
+                    <div class="news-slide__title"><a href="/">Активні кормові дріжджі</a></div>
+                    <div class="news-slide__text">Як активні кормові дріжджі нівелюють вплив шкідливої мікрофлори в
+                        кишківнику та сприяють збільшенню приростів поросят</div>
                 </div>
-                <div class="slider-item" data-aos="fade-up" data-aos-anchor-placement="center-center"
-                    data-aos-duration="3000">
-                    <img src="/img/news-img-4.webp" alt="Kubetelo - news" width="360" height="390">
-                    <div class="news-slide__title"><a href="/">Чи буде Україна постачати цукор за доступною ціно</a>
-                    </div>
-                    <div class="news-slide__text">Зупинка частини цукрових виробництв поставила під сумнів
-                        забезпеченість українців цукром.</div>
+                <div class="slider-item">
+                    <img src="/img/news-img-3.webp" alt="Kubetelo - news">
+                    <div class="news-slide__title"><a href="/">Активні кормові дріжджі</a></div>
+                    <div class="news-slide__text">Як активні кормові дріжджі нівелюють вплив шкідливої мікрофлори в
+                        кишківнику та сприяють збільшенню приростів поросят</div>
                 </div>
-            </div>
-            <div class="flex-container flex-center">
-                <div class="news-btn" data-aos="zoom-in"><a class="flex flex-ac flex-center" href="">Більше новин</a>
+                <div class="slider-item">
+                    <img src="/img/news-img-4.webp" alt="Kubetelo - news">
+                    <div class="news-slide__title"><a href="/">Активні кормові дріжджі</a></div>
+                    <div class="news-slide__text">Як активні кормові дріжджі нівелюють вплив шкідливої мікрофлори в
+                        кишківнику та сприяють збільшенню приростів поросят</div>
                 </div>
             </div>
-
         </section>
     </main>
     <footer>
-        <div class="flex-container">
-            <div class="footer-logo flex flex-center"><img src="img/footer-logotype.webp" alt="kubetol-logotype"></div>
-            <div class="footer-wrapper flex flex-ac flex-bettwen">
-                <div class="footer-item">
-                    <ul class="footer-item__link flex">
-                        <li><a href="/">Головна</a></li>
-                        <li><a href="/">Про нас</a></li>
-                        <li><a href="/">Продукція</a></li>
-                        <li><a href="">Контакти</a></li>
-                        <li><a href="">Новини</a></li>
-                    </ul>
-                    <div class="footer-item__social flex">
-                        <a class="flex flex-center flex-ac" href="/"><img src="img/facebook.png"
-                                alt="Kubetol - facebook" width="40" height="40"></a>
-                        <a class="flex flex-center flex-ac" href="/"><img src="img/instagram.webp"
-                                alt="Kubetol - instagram" width="40" height="40"></a>
-                        <a class="flex flex-center flex-ac" href="/"><img src="img/youtube.png" alt="Kubetol - Youtube"
-                                width="40" height="40"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css"
             href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">

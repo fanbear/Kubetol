@@ -106,7 +106,6 @@ $(document).ready(function () {
         loop: true,
         margin: 30,
         nav: true,
-        autoplay: true,
         autoplayTimeout: 3000,
         autoplayHoverPause: true
     });
