@@ -111,7 +111,7 @@ a:hover {
 }
 
 .loading-spinner {
-    border: 8px solid #0058B4;
+    border: 8px solid rgba(0, 0, 0, 0.4);
     border-top-color: var(--yellow-color);
     border-radius: 50%;
     width: 80px;
@@ -124,7 +124,7 @@ a:hover {
 
 .preload-img {
     margin-bottom: auto;
-    margin-bottom: 200px;
+    margin-bottom: 120px;
     position: relative;
     z-index: 1;
 }

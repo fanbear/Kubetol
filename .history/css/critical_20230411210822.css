@@ -112,7 +112,7 @@ a:hover {
 
 .loading-spinner {
     border: 8px solid #0058B4;
-    border-top-color: var(--yellow-color);
+    border-top-color: #0058B4;
     border-radius: 50%;
     width: 80px;
     height: 80px;

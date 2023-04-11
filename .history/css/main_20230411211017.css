@@ -819,7 +819,6 @@ footer {
 .footer-item__link {
     flex-wrap: wrap;
     padding: 0;
-    margin: 0;
 }
 
 .footer-item__link li {
@@ -839,7 +838,7 @@ footer {
 }
 
 .footer-item__social {
-    margin-bottom: 100px;
+    margin-top: 75px;
 }
 
 .footer-item__social a {
@@ -873,17 +872,6 @@ footer {
     color: var(--white-color);
 }
 
-.footer-item__mail a {
+.footer-item__mail {
     color: var(--white-color);
-    font-weight: bold;
-    font-size: var(--font-33);
-}
-
-.footer-item__address {
-    color: white;
-    margin-top: 20px;
-}
-
-.footer-item__developer {
-    color: white;
 }

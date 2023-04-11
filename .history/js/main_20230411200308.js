@@ -51,6 +51,9 @@ document.addEventListener('DOMContentLoaded', () => {
             // Play the video
             video.play();
         });
+        // setTimeout(() => {
+        //     video.play();
+        // }, 5000)
 
     }
 

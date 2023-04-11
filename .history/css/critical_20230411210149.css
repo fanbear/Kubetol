@@ -10,16 +10,17 @@
 .preload {
     position: fixed;
     /* background-image: url('../img/video-img-1.webp'); */
-    border-top: 50vh solid #0058B4;
-    border-bottom: 50vh solid var(--yellow-color);
+    border-top: 50vh solid var(--yellow-color);
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
+    background-position: top;
+    background-size: cover;
     margin: 0 auto;
     z-index: 9999;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -111,7 +112,7 @@ a:hover {
 }
 
 .loading-spinner {
-    border: 8px solid #0058B4;
+    border: 8px solid rgba(0, 0, 0, 0.4);
     border-top-color: var(--yellow-color);
     border-radius: 50%;
     width: 80px;
@@ -124,7 +125,7 @@ a:hover {
 
 .preload-img {
     margin-bottom: auto;
-    margin-bottom: 200px;
+    margin-top: 60px;
     position: relative;
     z-index: 1;
 }
@@ -137,7 +138,8 @@ a:hover {
 .preload-text {
     font-size: 40px;
     color: white;
-    margin-top: 120px;
+    margin-bottom: 10%;
+    margin-top: 60px;
     position: relative;
     z-index: 1;
 }

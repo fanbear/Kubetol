@@ -838,9 +838,6 @@ footer {
     transition: 0.2s;
 }
 
-.footer-item__social {
-    margin-bottom: 100px;
-}
 
 .footer-item__social a {
     width: 60px;
