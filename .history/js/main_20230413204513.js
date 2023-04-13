@@ -64,10 +64,8 @@ $(document).ready(function () {
 
     if (menuOpacity) {
         $(window).scroll(function () {
-            if (menuOpacity.offset().top > 50) {
-                menuOpacity.css("background-color", "white")
-            } else {
-                menuOpacity.css("background-color", "rgb(255, 255, 255, 0.8)")
+            if (menuOpacity.offset().top > 100) {
+                console.log('asd')
             }
         });
     }

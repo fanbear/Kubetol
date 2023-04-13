@@ -10,10 +10,10 @@ document.addEventListener("DOMContentLoaded", function () {
         // Calculate the time it took for the page to load
         let endTime = new Date().getTime();
         let loadTime = endTime - startTime;
-        if (loadTime < 2000) {
+        if (loadTime < 10000) {
             setTimeout(function () {
                 document.querySelector('.preload').classList.add('preload-hover');
-            }, 1000)
+            }, 2000)
         } else {
             document.querySelector('.preload').classList.add('preload-hover');
         }

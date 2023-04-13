@@ -10,7 +10,7 @@
 .preload {
     position: fixed;
     /* background-image: url('../img/video-img-1.webp'); */
-    background-color: var(--dark-color);
+    background-color: var(--dark-grey-color);
     top: 0;
     bottom: 0;
     right: 0;
