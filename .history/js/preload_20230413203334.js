@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (loadTime < 2000) {
             setTimeout(function () {
                 document.querySelector('.preload').classList.add('preload-hover');
-            }, 2000)
+            }, 1000)
         } else {
             document.querySelector('.preload').classList.add('preload-hover');
         }

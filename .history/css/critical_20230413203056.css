@@ -10,7 +10,7 @@
 .preload {
     position: fixed;
     /* background-image: url('../img/video-img-1.webp'); */
-    background-color: var(--dark-color);
+    background-color: var(--yellow-color);
     top: 0;
     bottom: 0;
     right: 0;
@@ -21,20 +21,6 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-}
-
-.preload::after {
-    content: '';
-    display: block;
-    position: absolute;
-    background-image: url('../img/about-desk-figure.webp');
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-    width: 530px;
-    height: 100%;
-    top: 0;
-    right: -25px;
 }
 
 html, body {
@@ -125,7 +111,7 @@ a:hover {
 }
 
 .loading-spinner {
-    border: 8px solid rgb(255, 255, 255, 0.8);
+    border: 8px solid #0058B4;
     border-top-color: var(--yellow-color);
     border-radius: 50%;
     width: 80px;

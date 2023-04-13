@@ -30,7 +30,6 @@
     background-image: url('../img/about-desk-figure.webp');
     background-size: contain;
     background-position: center center;
-    background-repeat: no-repeat;
     width: 530px;
     height: 100%;
     top: 0;
@@ -125,7 +124,7 @@ a:hover {
 }
 
 .loading-spinner {
-    border: 8px solid rgb(255, 255, 255, 0.8);
+    border: 8px solid #0058B4;
     border-top-color: var(--yellow-color);
     border-radius: 50%;
     width: 80px;
