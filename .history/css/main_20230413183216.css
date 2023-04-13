@@ -71,34 +71,7 @@
     left: 20px
 }
 
-.breadcrumb ul {
-    margin: 0;
-    padding: 0;
-}
 
-.breadcrumb ul li {
-    list-style: none;
-    display: flex;
-}
-
-.breadcrumb ul li a {
-    display: flex;
-    margin-right: 10px;
-}
-
-.breadcrumb ul li span {
-    display: flex;
-    margin-right: 10px;
-}
-
-.breadcrumb ul li:last-child {
-    color: var(--yellow-color);
-    font-weight: bold;
-}
-
-.breadcrumb ul li a:hover {
-    color: var(--yellow-color);
-}
 
 /* -------------------------- */
 
@@ -344,7 +317,6 @@
 .kubetol-digits__wrapper {
     flex-wrap: wrap;
     margin-top: 127px;
-    width: 100%;
 }
 
 .kubetol-digits__wrapper-item {
@@ -924,41 +896,24 @@ footer {
 -----------------------------------------------------------
 ----------------------------------------------------------- */
 .about-desc {
+    margin-top: 133px;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
-    overflow: hidden;
 }
 
-.about-desc::after {
-    content: '';
-    display: block;
-    position: absolute;
-    background-image: url('../img/about-desk-figure.webp');
-    background-size: contain;
-    background-position: center center;
-    width: 530px;
-    height: 100%;
-    top: 0;
-    right: -25px;
-}
-
-.about-desc__item {
+.about-desc-item {
     position: relative;
     width: 50%;
-    padding-right: 80px;
-    box-sizing: border-box;
+    ;
 }
 
 .about-desc {
-    padding: 274px 0 130px 0;
+    padding: 141px 0 130px 0;
 }
 
 .about-desc__title {
     border-bottom: 2px solid var(--white-color);
-    width: 100%;
-    display: flex;
 }
 
 .about-desc__title h1 {
@@ -966,96 +921,4 @@ footer {
     font-weight: 900;
     text-transform: uppercase;
     color: var(--white-color);
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-
-.about-desc_text {
-    margin-top: 10px;
-}
-
-.about-desc_text p {
-    font-size: 16px;
-    color: white;
-}
-
-.about-locations {
-    background-position: center center;
-    background-color: var(--white-color);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 18px 0 126px 0;
-}
-
-.about-locations__mission {
-    margin-top: 65px;
-    padding-bottom: 20px;
-    border-bottom: 2px solid var(--yellow-color);
-}
-
-.locations__mission-item {
-    width: 50%;
-}
-
-.mission-item__title {
-    font-size: var(--font-45);
-    font-weight: bold;
-    color: var(--yellow-color);
-    text-transform: uppercase;
-}
-
-.mission-item__text {
-    margin-top: 10px;
-    font-size: 16px;
-}
-
-.locations__mission-item:first-child {
-    padding-right: 30px;
-}
-
-.locations__country-title {
-    margin-top: 110px;
-    font-size: var(--font-45);
-    font-weight: bold;
-    text-transform: uppercase;
-    color: var(--yellow-color);
-}
-
-.locations__country-list {
-    margin-top: 160px;
-    padding-left: 50px;
-}
-
-.country-list__item {
-    margin-bottom: 36px;
-    position: relative;
-}
-
-.country-list__item-title {
-    font-size: var(--font-45);
-    font-weight: bold;
-}
-
-.country-list__item-text p {
-    margin: 0;
-}
-
-.country-list__item-text a:hover {
-    color: var(--yellow-color);
-}
-
-.country-list__item::before {
-    content: '';
-    display: block;
-    width: 22px;
-    height: 22px;
-    position: absolute;
-    left: -50px;
-    top: 20px;
-    border-radius: 11px;
-    background-color: var(--yellow-color);
-}
-
-.about-locations .kubetol-digits__wrapper {
-    margin-top: 287px;
 }

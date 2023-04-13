@@ -344,7 +344,6 @@
 .kubetol-digits__wrapper {
     flex-wrap: wrap;
     margin-top: 127px;
-    width: 100%;
 }
 
 .kubetol-digits__wrapper-item {
@@ -1001,7 +1000,6 @@ footer {
     font-size: var(--font-45);
     font-weight: bold;
     color: var(--yellow-color);
-    text-transform: uppercase;
 }
 
 .mission-item__text {
@@ -1017,45 +1015,5 @@ footer {
     margin-top: 110px;
     font-size: var(--font-45);
     font-weight: bold;
-    text-transform: uppercase;
-    color: var(--yellow-color);
-}
 
-.locations__country-list {
-    margin-top: 160px;
-    padding-left: 50px;
-}
-
-.country-list__item {
-    margin-bottom: 36px;
-    position: relative;
-}
-
-.country-list__item-title {
-    font-size: var(--font-45);
-    font-weight: bold;
-}
-
-.country-list__item-text p {
-    margin: 0;
-}
-
-.country-list__item-text a:hover {
-    color: var(--yellow-color);
-}
-
-.country-list__item::before {
-    content: '';
-    display: block;
-    width: 22px;
-    height: 22px;
-    position: absolute;
-    left: -50px;
-    top: 20px;
-    border-radius: 11px;
-    background-color: var(--yellow-color);
-}
-
-.about-locations .kubetol-digits__wrapper {
-    margin-top: 287px;
 }

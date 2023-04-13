@@ -344,7 +344,6 @@
 .kubetol-digits__wrapper {
     flex-wrap: wrap;
     margin-top: 127px;
-    width: 100%;
 }
 
 .kubetol-digits__wrapper-item {
@@ -1054,8 +1053,4 @@ footer {
     top: 20px;
     border-radius: 11px;
     background-color: var(--yellow-color);
-}
-
-.about-locations .kubetol-digits__wrapper {
-    margin-top: 287px;
 }

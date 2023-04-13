@@ -88,7 +88,6 @@ body {
     font-size: var(--font-25);
     color: var(--dark-color);
     background-color: var(--white-color);
-    overflow-x: hidden;
 }
 
 a {
@@ -164,7 +163,7 @@ header {
 }
 
 .header-rgb {
-    background-color: rgb(255, 255, 255, 0.8);
+    background-color: rgb(255, 255, 255, 0.6)
 }
 
 /* Language ----- */
