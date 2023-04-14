@@ -128,13 +128,15 @@ $(document).ready(function () {
     // Category slider
     $(".top-slider").owlCarousel({
         items: 1,
-        loop: false,
+        loop: true,
         dots: true,
         nav: false,
         autoplay: false,
         autoplayTimeout: 5000,
         autoplayHoverPause: true
     });
+
+
 
     //digits animation
     $(window).scroll(function () {

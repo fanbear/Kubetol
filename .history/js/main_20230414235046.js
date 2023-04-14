@@ -136,6 +136,8 @@ $(document).ready(function () {
         autoplayHoverPause: true
     });
 
+
+
     //digits animation
     $(window).scroll(function () {
         $('.number').each(function () {

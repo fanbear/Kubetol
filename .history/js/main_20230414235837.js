@@ -136,6 +136,19 @@ $(document).ready(function () {
         autoplayHoverPause: true
     });
 
+    $('.top-slider').owlCarousel({
+        onInitialized: function (e) {
+            // додаємо клас з ефектом анімації для всіх елементів
+            $(e.target).find('.ani').addClass('animate');
+        },
+        onTranslated: function (e) {
+            // додаємо клас з ефектом анімації для нових елементів
+            $(e.target).find('.owl-item.active').find('.ani').addClass('animate');
+            // видаляємо клас з ефектом анімації для попередніх елементів
+            $(e.target).find('.owl-item:not(.active)').find('.ani').removeClass('animate');
+        }
+    });
+
     //digits animation
     $(window).scroll(function () {
         $('.number').each(function () {

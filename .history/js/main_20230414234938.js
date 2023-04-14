@@ -130,11 +130,12 @@ $(document).ready(function () {
         items: 1,
         loop: false,
         dots: true,
-        nav: false,
         autoplay: false,
         autoplayTimeout: 5000,
         autoplayHoverPause: true
     });
+
+
 
     //digits animation
     $(window).scroll(function () {

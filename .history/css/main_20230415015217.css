@@ -1161,7 +1161,6 @@ footer {
 .category-list__item li {
     min-height: 70px;
     position: relative;
-    transition: 0.8s;
 }
 
 .category-list__item li a {
@@ -1173,8 +1172,9 @@ footer {
     border-radius: 26px;
     font-weight: bold;
     opacity: 0;
-    transition: 0.6s;
+    transition: 0.4s;
     position: relative;
+    z-index: -1;
 }
 
 .category-list__item li:before {
@@ -1187,7 +1187,7 @@ footer {
     left: -20px;
     position: absolute;
     opacity: 0;
-    transition: 0.6s;
+    z-index: -1;
 }
 
 .category-list__item li:hover {
@@ -1195,18 +1195,15 @@ footer {
 }
 
 .category-list__item li:hover a {
+    z-index: 1;
     opacity: 1;
-    transition: 0.6s;
-}
-
-.category-list__item li:hover a:hover {
-    background-color: var(--dark-color);
-    color: var(--yellow-color);
+    transition: 0.4s;
 }
 
 .category-list__item li:hover::before {
+    z-index: 1;
     opacity: 1;
-    transition: 0.6s;
+    transition: 0.4s;
 }
 
 .category-page .trust-us {
@@ -1247,16 +1244,4 @@ footer {
 
 .category-page .main-from__btn {
     background-color: var(--dark-color);
-    color: var(--yellow-color);
-}
-
-.category-page .main-from__btn:hover {
-    box-shadow: 1px 1px 10px 2px var(--dark-color);
-    transition: 0.4s;
-}
-
-.category-page .main-from__item input,
-.category-page .main-from__item textarea {
-    background-color: white;
-    color: var(--dark-color);
 }

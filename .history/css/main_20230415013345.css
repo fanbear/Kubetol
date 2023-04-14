@@ -1161,7 +1161,6 @@ footer {
 .category-list__item li {
     min-height: 70px;
     position: relative;
-    transition: 0.8s;
 }
 
 .category-list__item li a {
@@ -1173,8 +1172,9 @@ footer {
     border-radius: 26px;
     font-weight: bold;
     opacity: 0;
-    transition: 0.6s;
+    transition: 0.4s;
     position: relative;
+    z-index: -1;
 }
 
 .category-list__item li:before {
@@ -1187,7 +1187,7 @@ footer {
     left: -20px;
     position: absolute;
     opacity: 0;
-    transition: 0.6s;
+    z-index: -1;
 }
 
 .category-list__item li:hover {
@@ -1195,68 +1195,21 @@ footer {
 }
 
 .category-list__item li:hover a {
+    z-index: 1;
     opacity: 1;
-    transition: 0.6s;
-}
-
-.category-list__item li:hover a:hover {
-    background-color: var(--dark-color);
-    color: var(--yellow-color);
-}
-
-.category-list__item li:hover::before {
-    opacity: 1;
-    transition: 0.6s;
-}
-
-.category-page .trust-us {
-    margin-top: 280px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    box-shadow: inset 0 140px 36px 0px rgba(255, 255, 255, 0.3);
-
-}
-
-.category-page .trust-us__title {
-    color: var(--dark-color);
-    margin-top: -80px;
-}
-
-.category-page .trust-us__wrapper {
-    margin-top: 120px;
-}
-
-.category-page .trust-us__desc {
-    margin-top: 152px;
-    color: var(--dark-color);
-    font-size: var(--font-25);
-    font-weight: 400;
-}
-
-.category-page .main-from {
-    background-color: var(--yellow-color);
-}
-
-.category-page .main-from__title,
-.category-page .main-from__subtitle,
-.category-page .main-from__text {
-    color: var(--dark-color);
-}
-
-.category-page .main-from__btn {
-    background-color: var(--dark-color);
-    color: var(--yellow-color);
-}
-
-.category-page .main-from__btn:hover {
-    box-shadow: 1px 1px 10px 2px var(--dark-color);
     transition: 0.4s;
 }
 
-.category-page .main-from__item input,
-.category-page .main-from__item textarea {
-    background-color: white;
+.category-list__item li:hover::before {
+    z-index: 1;
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.category-page .trust-us {
+    margin-top: 200px;
+}
+
+.category-page .trust-us__title {
     color: var(--dark-color);
 }
