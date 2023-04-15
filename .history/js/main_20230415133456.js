@@ -57,23 +57,25 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
-
-
+    // AOE animations start
+    AOS.init({
+        disable: 'mobile', // відключити на мобільних пристроях
+    });
 
 })
 
 $(document).ready(function () {
 
 
-    if ($('.header').hasClass('header-rgb')) {
-        $(window).scroll(function () {
-            if ($('.header-rgb').offset().top > 50) {
-                $('.header-rgb').css("background-color", "white")
-            } else {
-                $('.header-rgb').css("background-color", "rgb(255, 255, 255, 0.8)")
-            }
-        });
-    }
+    // if ($('.header').hasClass('header-rgb')) {
+    //     $(window).scroll(function () {
+    //         if ($('.header-rgb').offset().top > 50) {
+    //             $('.header-rgb').css("background-color", "white")
+    //         } else {
+    //             $('.header-rgb').css("background-color", "rgb(255, 255, 255, 0.8)")
+    //         }
+    //     });
+    // }
 
 
 
@@ -169,12 +171,5 @@ $(document).ready(function () {
         const viewportTop = $(window).scrollTop();
         return viewportTop;
     }
-
-
-
-    // AOE animations start
-    AOS.init({
-        disable: 'mobile', // відключити на мобільних пристроях
-    });
 });
 

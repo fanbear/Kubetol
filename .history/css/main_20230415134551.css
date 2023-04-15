@@ -1071,12 +1071,14 @@ footer {
 -------------------------------------------------- */
 
 .item-slider img {
+
     position: absolute;
+
 }
 
 .top-slider__item {
     padding-top: 362px;
-    padding-bottom: 25%;
+    padding-bottom: 20%;
     max-width: 60%;
     box-sizing: border-box;
     max-height: 1230px;

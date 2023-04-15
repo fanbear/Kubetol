@@ -54,23 +54,20 @@ document.addEventListener('DOMContentLoaded', () => {
             // Play the video
             video.play();
         });
+
     }
-
-
-
-
 
 })
 
 $(document).ready(function () {
+    const menuOpacity = $('.header-rgb');
 
-
-    if ($('.header').hasClass('header-rgb')) {
+    if (menuOpacity) {
         $(window).scroll(function () {
-            if ($('.header-rgb').offset().top > 50) {
-                $('.header-rgb').css("background-color", "white")
+            if (menuOpacity.offset().top > 50) {
+                menuOpacity.css("background-color", "white")
             } else {
-                $('.header-rgb').css("background-color", "rgb(255, 255, 255, 0.8)")
+                menuOpacity.css("background-color", "rgb(255, 255, 255, 0.8)")
             }
         });
     }
@@ -132,12 +129,12 @@ $(document).ready(function () {
     // Category slider
     $(".top-slider").owlCarousel({
         items: 1,
-        loop: true,
+        loop: false,
         dots: true,
         nav: false,
         autoplay: false,
         autoplayTimeout: 5000,
-        autoplayHoverPause: false
+        autoplayHoverPause: true
     });
 
     //digits animation
@@ -169,12 +166,5 @@ $(document).ready(function () {
         const viewportTop = $(window).scrollTop();
         return viewportTop;
     }
-
-
-
-    // AOE animations start
-    AOS.init({
-        disable: 'mobile', // відключити на мобільних пристроях
-    });
 });
 

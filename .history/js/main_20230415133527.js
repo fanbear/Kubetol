@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
-
+    // AOE animations start
 
 
 })
@@ -170,9 +170,6 @@ $(document).ready(function () {
         return viewportTop;
     }
 
-
-
-    // AOE animations start
     AOS.init({
         disable: 'mobile', // відключити на мобільних пристроях
     });

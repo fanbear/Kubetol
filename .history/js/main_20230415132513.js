@@ -57,8 +57,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
-
-
+    // AOE animations start
+    AOS.init({
+        disable: 'mobile', // відключити на мобільних пристроях
+    });
 
 })
 
@@ -73,6 +75,8 @@ $(document).ready(function () {
                 $('.header-rgb').css("background-color", "rgb(255, 255, 255, 0.8)")
             }
         });
+    } else {
+
     }
 
 
@@ -135,7 +139,7 @@ $(document).ready(function () {
         loop: true,
         dots: true,
         nav: false,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 5000,
         autoplayHoverPause: false
     });
@@ -169,12 +173,5 @@ $(document).ready(function () {
         const viewportTop = $(window).scrollTop();
         return viewportTop;
     }
-
-
-
-    // AOE animations start
-    AOS.init({
-        disable: 'mobile', // відключити на мобільних пристроях
-    });
 });
 

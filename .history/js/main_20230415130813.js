@@ -54,11 +54,8 @@ document.addEventListener('DOMContentLoaded', () => {
             // Play the video
             video.play();
         });
+
     }
-
-
-
-
 
 })
 
@@ -73,6 +70,8 @@ $(document).ready(function () {
                 $('.header-rgb').css("background-color", "rgb(255, 255, 255, 0.8)")
             }
         });
+    } else {
+
     }
 
 
@@ -132,12 +131,12 @@ $(document).ready(function () {
     // Category slider
     $(".top-slider").owlCarousel({
         items: 1,
-        loop: true,
+        loop: false,
         dots: true,
         nav: false,
         autoplay: false,
         autoplayTimeout: 5000,
-        autoplayHoverPause: false
+        autoplayHoverPause: true
     });
 
     //digits animation
@@ -169,12 +168,5 @@ $(document).ready(function () {
         const viewportTop = $(window).scrollTop();
         return viewportTop;
     }
-
-
-
-    // AOE animations start
-    AOS.init({
-        disable: 'mobile', // відключити на мобільних пристроях
-    });
 });
 

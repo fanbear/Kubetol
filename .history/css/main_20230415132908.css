@@ -1071,12 +1071,19 @@ footer {
 -------------------------------------------------- */
 
 .item-slider img {
+    width: 100%;
     position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
 }
 
 .top-slider__item {
     padding-top: 362px;
-    padding-bottom: 25%;
+    padding-bottom: 471px;
     max-width: 60%;
     box-sizing: border-box;
     max-height: 1230px;
@@ -1129,8 +1136,7 @@ footer {
     position: absolute;
     z-index: 3;
     bottom: 60px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: calc(100% / 2)
 }
 
 .category-list {
