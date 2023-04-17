@@ -1285,10 +1285,6 @@ footer {
     transition: 0.4s;
 }
 
-.product-option__body {
-    position: relative;
-}
-
 .option__head-item:hover {
     color: var(--yellow-color);
     transition: 0.4s;
@@ -1305,7 +1301,7 @@ footer {
     top: 0;
     transition: 0.8s;
     padding: 38px 0 0 0;
-    transform: translateX(100%);
+    transform: translateX(1000%);
     transition: 1s;
     transition: opacity 0.3s ease-out, transform 0.3s ease-out;
     overflow: hidden;
