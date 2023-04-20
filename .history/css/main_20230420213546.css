@@ -1411,7 +1411,6 @@ footer {
     border-top: 2px solid var(--yellow-color);
     padding-top: 20px;
     text-align: left;
-    margin-bottom: 54px;
 }
 
 .spec-text table thead {
@@ -1425,53 +1424,5 @@ footer {
 
 .spec-text tbody tr td {
     border-bottom: 1px solid var(--grey-color);
-    border-right: 1px solid var(--grey-color);
-    padding: 6px;
-    margin-left: -2px;
-}
-
-.spec-text tbody tr:nth-child(1) td {
-    border-top: 1px solid var(--grey-color);
-}
-
-.spec-text img {
-    float: left;
-    margin-right: 45px;
-}
-
-.spec-sertification {
-    margin-top: 40px;
-}
-
-.spec-img-container {
-    width: 100%;
-}
-
-.spec-download {
-    margin-top: 90px;
-}
-
-.spec-download a {
-    background-color: var(--yellow-color);
-    color: white;
-    width: 557px;
-    height: 60px;
-    border-radius: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 0 auto;
-    transition: 0.4s;
-}
-
-.spec-download a:hover {
-    background-color: var(--dark-color);
-    color: var(--yellow-color);
-    transition: 0.4s;
-}
-
-.spec-bottom__img {
-    min-height: 750px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    border-righ: 1px solid var(--grey-color);
 }

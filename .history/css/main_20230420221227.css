@@ -1460,18 +1460,8 @@ footer {
     font-weight: bold;
     text-transform: uppercase;
     margin: 0 auto;
-    transition: 0.4s;
-}
-
-.spec-download a:hover {
-    background-color: var(--dark-color);
-    color: var(--yellow-color);
-    transition: 0.4s;
 }
 
 .spec-bottom__img {
-    min-height: 750px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    min-width: 750px;
 }

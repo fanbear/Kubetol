@@ -1460,7 +1460,6 @@ footer {
     font-weight: bold;
     text-transform: uppercase;
     margin: 0 auto;
-    transition: 0.4s;
 }
 
 .spec-download a:hover {

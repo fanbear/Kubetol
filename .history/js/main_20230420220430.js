@@ -245,13 +245,6 @@ $(document).ready(function () {
         disable: 'mobile', // відключити на мобільних пристроях
     });
 
-    // Magnific popup
-    $('.image-link').magnificPopup({ type: 'image' });
 
-    $('.spec-img-container').magnificPopup({
-        delegate: 'a', // child items selector, by clicking on it popup will open
-        type: 'image'
-        // other options
-    });
 });
 

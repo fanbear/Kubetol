@@ -248,7 +248,7 @@ $(document).ready(function () {
     // Magnific popup
     $('.image-link').magnificPopup({ type: 'image' });
 
-    $('.spec-img-container').magnificPopup({
+    $('spec-img-container').magnificPopup({
         delegate: 'a', // child items selector, by clicking on it popup will open
         type: 'image'
         // other options
