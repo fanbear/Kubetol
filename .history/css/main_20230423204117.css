@@ -1520,24 +1520,4 @@ footer {
 
 .contact-map__wrapper {
     margin-top: 60px;
-    border-bottom: 2px solid var(--yellow-color);
-    margin-bottom: 50px;
-}
-
-.contact-map__item {
-    width: 49%;
-}
-
-.map__item-title {
-    font-weight: bold;
-}
-
-.map__item-desc {
-    margin-top: 16px;
-    margin-bottom: 35px;
-}
-
-.contact-map__img img {
-    width: fit-content;
-    height: auto;
 }

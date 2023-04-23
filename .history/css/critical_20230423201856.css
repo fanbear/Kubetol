@@ -677,3 +677,10 @@ header {
     box-shadow: 0 0 8px var(--yellow-color);
     transition: 0.4s;
 }
+
+.manager__item-title {
+    color: var(--white-color);
+    font-weight: bold;
+    font-size: var(--font-33);
+    margin-top: 8px;
+}

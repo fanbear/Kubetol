@@ -537,10 +537,6 @@ header {
 /* Contact page -------------------------------------------------  */
 .contact-top {
     padding-top: 200px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 85px;
 }
 
 .contact-top__title h1 {
@@ -548,7 +544,7 @@ header {
     color: var(--yellow-color);
     font-weight: 900;
     text-transform: uppercase;
-    margin-bottom: 25px;
+    margin-bottom: 55px;
     margin-top: 0;
 
 }
@@ -575,11 +571,7 @@ header {
 }
 
 .contact-top__item {
-    width: 60%;
-}
-
-.contact-top__item:nth-child(2) {
-    width: 40%;
+    width: 49%;
 }
 
 .item-office__desc h2 {
@@ -605,75 +597,4 @@ header {
 .item-office__item a:nth-child(2) {
     font-weight: normal;
     text-decoration: underline;
-}
-
-.contact-top_item-office {
-    margin-left: 90px;
-}
-
-.contact-top__form-title {
-    font-size: var(--font-45);
-    color: var(--yellow-color);
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.contact-top__form-subtitle {
-    color: var(--white-color);
-    margin-top: 10px;
-}
-
-.contact-top__form-inputs {
-    margin-top: 25px;
-
-}
-
-.contact-top__form-inputs input,
-.contact-top__form-inputs textarea {
-    background-color: white !important;
-    color: var(--dark-color) !important;
-    max-width: 100%;
-    box-sizing: border-box;
-}
-
-.contact-top__form {
-    margin-top: 35px;
-}
-
-.contact-top__form-text {
-    margin-top: 25px;
-    color: var(--white-color);
-    font-size: 16px;
-    max-width: 80%;
-}
-
-.contact-top__form .main-from__item {
-    width: 100%;
-}
-
-.contact-top__form-btn {
-    margin-top: 98px;
-}
-
-.contact-top__form-btn button {
-    margin: 0 auto;
-    width: 328px;
-    height: 69px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: var(--dark-color);
-    background-color: var(--yellow-color);
-    border-radius: 30px;
-    font-size: var(--font-25);
-    border: 0;
-    cursor: pointer;
-    transition: 0.4s;
-}
-
-.contact-top__form-btn button:hover {
-    box-shadow: 0 0 8px var(--yellow-color);
-    transition: 0.4s;
 }

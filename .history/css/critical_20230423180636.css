@@ -575,11 +575,7 @@ header {
 }
 
 .contact-top__item {
-    width: 60%;
-}
-
-.contact-top__item:nth-child(2) {
-    width: 40%;
+    width: 49%;
 }
 
 .item-office__desc h2 {
@@ -632,8 +628,6 @@ header {
 .contact-top__form-inputs textarea {
     background-color: white !important;
     color: var(--dark-color) !important;
-    max-width: 100%;
-    box-sizing: border-box;
 }
 
 .contact-top__form {
@@ -644,36 +638,4 @@ header {
     margin-top: 25px;
     color: var(--white-color);
     font-size: 16px;
-    max-width: 80%;
-}
-
-.contact-top__form .main-from__item {
-    width: 100%;
-}
-
-.contact-top__form-btn {
-    margin-top: 98px;
-}
-
-.contact-top__form-btn button {
-    margin: 0 auto;
-    width: 328px;
-    height: 69px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: var(--dark-color);
-    background-color: var(--yellow-color);
-    border-radius: 30px;
-    font-size: var(--font-25);
-    border: 0;
-    cursor: pointer;
-    transition: 0.4s;
-}
-
-.contact-top__form-btn button:hover {
-    box-shadow: 0 0 8px var(--yellow-color);
-    transition: 0.4s;
 }

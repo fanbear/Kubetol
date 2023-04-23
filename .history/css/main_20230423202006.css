@@ -1498,46 +1498,4 @@ footer {
 
 .manager__item-phone {
     text-transform: uppercase;
-    font-weight: bold;
-}
-
-.manager__item-mail {
-    text-decoration: underline;
-}
-
-.manager__item-phone:hover,
-.manager__item-mail:hover {
-    color: var(--white-color);
-}
-
-.contact-map__title {
-    color: var(--yellow-color);
-    font-size: var(--font-45);
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-top: 50px;
-}
-
-.contact-map__wrapper {
-    margin-top: 60px;
-    border-bottom: 2px solid var(--yellow-color);
-    margin-bottom: 50px;
-}
-
-.contact-map__item {
-    width: 49%;
-}
-
-.map__item-title {
-    font-weight: bold;
-}
-
-.map__item-desc {
-    margin-top: 16px;
-    margin-bottom: 35px;
-}
-
-.contact-map__img img {
-    width: fit-content;
-    height: auto;
 }

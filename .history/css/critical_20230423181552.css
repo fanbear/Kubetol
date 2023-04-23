@@ -670,10 +670,8 @@ header {
     font-size: var(--font-25);
     border: 0;
     cursor: pointer;
-    transition: 0.4s;
 }
 
 .contact-top__form-btn button:hover {
-    box-shadow: 0 0 8px var(--yellow-color);
-    transition: 0.4s;
+    box-shadow: 0 0 5px var(--yellow-color);
 }

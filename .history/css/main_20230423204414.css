@@ -1536,8 +1536,3 @@ footer {
     margin-top: 16px;
     margin-bottom: 35px;
 }
-
-.contact-map__img img {
-    width: fit-content;
-    height: auto;
-}
