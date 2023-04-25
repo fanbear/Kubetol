@@ -683,30 +683,9 @@ header {
     margin-top: 133px;
 }
 
-.search-top {
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 107px;
-}
-
 .search-title {
     font-size: 108px;
-    font-weight: 900;
+    font-weight: bold;
     color: var(--white-color);
     max-width: 60%;
-    margin-top: 78px;
-    text-transform: uppercase;
-}
-
-.search-text {
-    margin-top: 45px;
-    background-color: var(--yellow-color);
-
-}
-
-.search-text__item {
-    font-size: var(--font-33);
-    font-weight: bold;
-    padding: 40px 0 23px 0;
 }

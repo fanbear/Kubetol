@@ -205,7 +205,6 @@ $(document).ready(function () {
         autoplayTimeout: 5000,
         autoplayHoverPause: true
     });
-
     //Bsetseller sldier
     $(".bestseller__slider").owlCarousel({
         items: 4,
@@ -227,7 +226,6 @@ $(document).ready(function () {
         autoplayTimeout: 3000,
         autoplayHoverPause: true
     });
-
     //News slider
     $(".news-slide").owlCarousel({
         items: 4,
@@ -239,7 +237,6 @@ $(document).ready(function () {
         autoplayTimeout: 3000,
         autoplayHoverPause: true
     });
-
     // Category slider
     $(".top-slider").owlCarousel({
         items: 1,

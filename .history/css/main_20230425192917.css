@@ -1622,3 +1622,8 @@ footer {
     background-color: var(--dark-grey-color) !important;
     color: var(--grey-color) !important;
 }
+
+.result-wrapper {
+    height: calc(100%);
+    transition: 2s;
+}

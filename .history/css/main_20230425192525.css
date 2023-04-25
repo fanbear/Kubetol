@@ -1620,5 +1620,5 @@ footer {
 .btn-disable {
     pointer-events: none;
     background-color: var(--dark-grey-color) !important;
-    color: var(--grey-color) !important;
+    color: var(--grey-color)
 }

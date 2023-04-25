@@ -1555,70 +1555,9 @@ footer {
 
 .result-item__text {
     font-size: var(--font-16);
-    border-bottom: 2px solid var(--yellow-color);
 }
 
-.result-item__title a {
+.result-item__title {
     font-size: var(--font-16);
     font-weight: bold;
-}
-
-.result-item__text p {
-    margin-top: 0;
-}
-
-.result-item__title a:hover {
-    color: var(--yellow-color);
-}
-
-.result-item {
-    margin-bottom: 30px;
-}
-
-.search-result__btn {
-    margin-top: 95px;
-    margin-bottom: 90px;
-    width: 100%;
-}
-
-.search-result__btn button {
-    background-color: var(--dark-color);
-    border-radius: 34px;
-    width: 361px;
-    height: 69px;
-    font-size: var(--font-25);
-    font-weight: bold;
-    text-transform: uppercase;
-    color: var(--yellow-color);
-    cursor: pointer;
-    border: 0;
-    transition: 0.4s;
-}
-
-.search-result__btn button:hover {
-    background-color: var(--yellow-color);
-    color: var(--dark-color);
-    transition: 0.4s;
-}
-
-.search-result__hidden {
-    opacity: 0;
-    position: absolute;
-    z-index: -1;
-    transform: translateX(-100%);
-    transition: 0.8s;
-}
-
-.search-result__show {
-    opacity: 1;
-    position: relative;
-    z-index: 1;
-    transform: translateX(0);
-    transition: 0.8s;
-}
-
-.btn-disable {
-    pointer-events: none;
-    background-color: var(--dark-grey-color) !important;
-    color: var(--grey-color) !important;
 }

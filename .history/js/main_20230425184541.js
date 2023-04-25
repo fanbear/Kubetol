@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // Search page, btn view more
-    const searchBtn = document.querySelector('.search-result__btn button');
+    const searchBtn = document.querySelector('.search-result__btn span');
     const searchItemList = document.querySelectorAll('.result-item');
 
     if (searchItemList) {
@@ -138,34 +138,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             })
         }
-    }
-    if (searchBtn) {
-        searchBtn.addEventListener('click', () => {
-            const listCount = searchItemList.length;
-            let count = 0;
-
-            if (listCount > 3) {
-                searchItemList.forEach((item, i) => {
-                    if (item.classList.contains('search-result__show')) {
-                        count += 1;
-                    }
-
-                })
-                searchItemList.forEach((item, i = count) => {
-                    if (i < count + 3) {
-                        setTimeout(() => {
-                            item.classList.remove('search-result__hidden');
-                            item.classList.add('search-result__show');
-                        }, i * 100 - i * 50)
-
-                    }
-                    if (listCount < count + 1) {
-                        searchBtn.classList.add('btn-disable')
-                    }
-                })
-
-            }
-        })
     }
 
 })
@@ -205,7 +177,6 @@ $(document).ready(function () {
         autoplayTimeout: 5000,
         autoplayHoverPause: true
     });
-
     //Bsetseller sldier
     $(".bestseller__slider").owlCarousel({
         items: 4,
@@ -227,7 +198,6 @@ $(document).ready(function () {
         autoplayTimeout: 3000,
         autoplayHoverPause: true
     });
-
     //News slider
     $(".news-slide").owlCarousel({
         items: 4,
@@ -239,7 +209,6 @@ $(document).ready(function () {
         autoplayTimeout: 3000,
         autoplayHoverPause: true
     });
-
     // Category slider
     $(".top-slider").owlCarousel({
         items: 1,

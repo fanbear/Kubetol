@@ -681,18 +681,12 @@ header {
 /* Search page --------------------------------- */
 .search-page {
     margin-top: 133px;
-}
-
-.search-top {
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
     padding-bottom: 107px;
 }
 
 .search-title {
     font-size: 108px;
-    font-weight: 900;
+    font-weight: bold;
     color: var(--white-color);
     max-width: 60%;
     margin-top: 78px;
