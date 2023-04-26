@@ -129,30 +129,31 @@ document.addEventListener('DOMContentLoaded', () => {
     // ************** Function "View More" ********************
 
     function showMore(button, list, showItem) {
+        button.addEventListener('click', () => {
+            const listCount = searchItemList.length;
+            let count = 0;
 
-        const listCount = list.length;
-        let count = 0;
-        console.log(button);
-        if (listCount > showItem) {
-            list.forEach((item, i) => {
-                if (item.classList.contains('result__show')) {
-                    count += 1;
-                }
+            if (listCount > showItem) {
+                list.forEach((item, i) => {
+                    if (item.classList.contains('result__show')) {
+                        count += 1;
+                    }
 
-            })
-            list.forEach((item, i = count) => {
-                if (i < count + showItem) {
-                    setTimeout(() => {
-                        item.classList.remove('result__hidden');
-                        item.classList.add('result__show');
-                    }, i * 100 - i * 50)
+                })
+                list.forEach((item, i = count) => {
+                    if (i < count + showItem) {
+                        setTimeout(() => {
+                            item.classList.remove('result__hidden');
+                            item.classList.add('result__show');
+                        }, i * 100 - i * 50)
 
-                }
-                if (listCount < count + 1) {
-                    button.classList.add('btn-disable')
-                }
-            })
-        }
+                    }
+                    if (listCount < count + 1) {
+                        button.classList.add('btn-disable')
+                    }
+                })
+            }
+        })
     }
 
 
@@ -170,9 +171,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
     if (searchBtn) {
-        searchBtn.addEventListener('click', () => showMore(searchBtn, searchItemList, 3))
+        showMore(searchBtn, searchItemList, 3);
     }
-
 
     // News Category page
 
@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (newsBtn) {
-        newsBtn.addEventListener('click', () => showMore(newsBtn, newsItemList, 4))
+        showMore(newsBtn, newsItemList, 3);
     }
 })
 

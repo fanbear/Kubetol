@@ -1391,9 +1391,6 @@ footer {
 
 .yellow-line__text {
     color: var(--dark-color);
-}
-
-.yellow__text {
     font-weight: bold;
 }
 

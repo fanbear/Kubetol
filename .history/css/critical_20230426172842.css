@@ -720,7 +720,7 @@ header {
     background-repeat: no-repeat;
 }
 
-.news-category__top h1 {
+.news-category-top h1 {
     margin: 0;
     text-transform: uppercase;
     color: var(--yellow-color);
@@ -728,7 +728,7 @@ header {
     font-weight: 900;
 }
 
-.news-category__top h2 {
+.news-category-top h2 {
     font-size: var(--font-33);
     font-weight: bold;
     color: var(--white-color);

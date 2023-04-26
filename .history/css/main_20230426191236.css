@@ -120,12 +120,6 @@
     transition: 0.8s;
 }
 
-.btn-disable {
-    pointer-events: none;
-    background-color: var(--dark-grey-color) !important;
-    color: var(--grey-color) !important;
-}
-
 /* -------------------------- */
 
 
@@ -1390,11 +1384,7 @@ footer {
 }
 
 .yellow-line__text {
-    color: var(--dark-color);
-}
-
-.yellow__text {
-    font-weight: bold;
+    color: var(--dark-color)
 }
 
 .yellow__button {
@@ -1627,6 +1617,12 @@ footer {
     transition: 0.4s;
 }
 
+.btn-disable {
+    pointer-events: none;
+    background-color: var(--dark-grey-color) !important;
+    color: var(--grey-color) !important;
+}
+
 
 /* News category --------------------------------------
 -------------------------------------------------------
@@ -1698,5 +1694,4 @@ footer {
 .news-category__btn button:hover {
     background-color: var(--dark-color);
     color: var(--yellow-color);
-    transition: 0.4s;
 }

@@ -190,6 +190,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (newsBtn) {
+
         newsBtn.addEventListener('click', () => showMore(newsBtn, newsItemList, 4))
     }
 })

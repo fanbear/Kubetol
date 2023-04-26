@@ -130,9 +130,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function showMore(button, list, showItem) {
 
-        const listCount = list.length;
+        const listCount = searchItemList.length;
         let count = 0;
-        console.log(button);
+
         if (listCount > showItem) {
             list.forEach((item, i) => {
                 if (item.classList.contains('result__show')) {
@@ -190,7 +190,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (newsBtn) {
-        newsBtn.addEventListener('click', () => showMore(newsBtn, newsItemList, 4))
+        console.log('asd');
+        newsBtn.addEventListener('click', () => showMore(searchBtn, searchItemList, 4))
     }
 })
 

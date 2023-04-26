@@ -129,30 +129,31 @@ document.addEventListener('DOMContentLoaded', () => {
     // ************** Function "View More" ********************
 
     function showMore(button, list, showItem) {
+        button.addEventListener('click', () => {
+            const listCount = searchItemList.length;
+            let count = 0;
 
-        const listCount = list.length;
-        let count = 0;
-        console.log(button);
-        if (listCount > showItem) {
-            list.forEach((item, i) => {
-                if (item.classList.contains('result__show')) {
-                    count += 1;
-                }
+            if (listCount > showItem) {
+                list.forEach((item, i) => {
+                    if (item.classList.contains('search-result__show')) {
+                        count += 1;
+                    }
 
-            })
-            list.forEach((item, i = count) => {
-                if (i < count + showItem) {
-                    setTimeout(() => {
-                        item.classList.remove('result__hidden');
-                        item.classList.add('result__show');
-                    }, i * 100 - i * 50)
+                })
+                list.forEach((item, i = count) => {
+                    if (i < count + showItem) {
+                        setTimeout(() => {
+                            item.classList.remove('search-result__hidden');
+                            item.classList.add('search-result__show');
+                        }, i * 100 - i * 50)
 
-                }
-                if (listCount < count + 1) {
-                    button.classList.add('btn-disable')
-                }
-            })
-        }
+                    }
+                    if (listCount < count + 1) {
+                        button.classList.add('btn-disable')
+                    }
+                })
+            }
+        })
     }
 
 
@@ -164,15 +165,14 @@ document.addEventListener('DOMContentLoaded', () => {
         if (searchItemList.length > 3) {
             searchItemList.forEach((item, i) => {
                 if (i > 2) {
-                    item.classList.add('result__hidden');
+                    item.classList.add('search-result__hidden');
                 }
             })
         }
     }
     if (searchBtn) {
-        searchBtn.addEventListener('click', () => showMore(searchBtn, searchItemList, 3))
+        showMore(searchBtn, searchItemList);
     }
-
 
     // News Category page
 
@@ -180,17 +180,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const newsItemList = document.querySelectorAll('.grid-item_news');
 
     if (newsItemList) {
-        if (newsItemList.length > 4) {
+        if (newsItemList.length > 3) {
             newsItemList.forEach((item, i) => {
-                if (i > 3) {
-                    item.classList.add('result__hidden');
+                if (i > 2) {
+                    item.classList.add('news-category__hidden');
                 }
             })
         }
-    }
-
-    if (newsBtn) {
-        newsBtn.addEventListener('click', () => showMore(newsBtn, newsItemList, 4))
     }
 })
 

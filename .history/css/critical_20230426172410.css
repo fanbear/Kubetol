@@ -712,25 +712,15 @@ header {
 }
 
 /* News Category ----------------------------------- */
-.news-category__top {
+.news-category-top {
     margin-top: 133px;
-    padding: 236px 0 220px 0;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
-.news-category__top h1 {
-    margin: 0;
+.news-category-top h1 {
+    margin-top: 236px;
+    margin-bottom: 0;
     text-transform: uppercase;
     color: var(--yellow-color);
     font-size: var(--font-45);
-    font-weight: 900;
-}
-
-.news-category__top h2 {
-    font-size: var(--font-33);
     font-weight: bold;
-    color: var(--white-color);
-    margin: 0;
 }
