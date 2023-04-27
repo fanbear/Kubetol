@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const videoMP = video.getAttribute('data-mp');
         const videoWebm = video.getAttribute('data-webm');
 
-        video.querySelector('source').setAttribute('src', videoWebm);
+        video.querySelector('source').setAttribute('src', videoWebmP);
         video.addEventListener('loadedmetadata', function () {
             // Play the video
             video.play();
