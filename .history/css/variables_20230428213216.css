@@ -1,0 +1,39 @@
+:root {
+    /* Color variables */
+    --dark-color: #000000;
+    --white-color: #ffffff;
+    --yellow-color: #f8bc16;
+    --grey-color: #9d9d9d;
+    --dark-grey-color: #3a3a3a;
+    /* Literal Fonts */
+    --font-16: 16.7px;
+    --font-25: 25.5px;
+    --font-33: 33.3px;
+    --font-45: 45.83px;
+    --font-100: 100.1px;
+
+    /* Container width */
+    --width: 1180px;
+    --container-padding: 0 15px;
+}
+
+/* Media query for tablets */
+@media screen and (max-width: 1439.98px) {
+    :root {
+        --width: 980px;
+        --container-padding: 0 20px;
+        --font-16: 16.7px;
+        --font-25: 25px;
+        --font-33: 30px;
+        --font-45: 40px;
+        --font-100: 80px;
+    }
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 480px) {
+    :root {
+        --width: width: 100%;
+        --container-padding: 0 20px;
+    }
+}
