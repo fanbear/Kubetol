@@ -1029,7 +1029,7 @@ header {
         display: none;
     }
 
-    .main-video__slider .slider-item {
+    .slider-item {
         min-width: 960px;
     }
 
@@ -1039,13 +1039,5 @@ header {
 
     .slider-video__wrapper .owl-dots {
         right: 80px;
-    }
-
-    .language-active {
-        font-size: 30px;
-    }
-
-    .header-menu__list ul li a {
-        font-size: 30px;
     }
 }

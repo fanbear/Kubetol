@@ -1737,4 +1737,8 @@ footer {
     .slider-caption__arrow {
         margin: 0 40px;
     }
+
+    .kubetol-shipped__slider .slider-caption__item {
+        justify-content: center;
+    }
 }

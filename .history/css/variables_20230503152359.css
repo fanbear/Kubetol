@@ -38,18 +38,17 @@
 /* Media query for mobile devices */
 @media screen and (max-width: 1023.98px) {
     :root {
-        --width: 720px;
+        --width: 740px;
         --container-padding: 0 20px;
         --font-16: 16.7px;
-        --font-25: 20px;
-        --font-33: 26px;
+        --font-25: 22px;
+        --font-33: 28px;
         --font-45: 35px;
         --font-100: 70px;
-        --btn-width: 320px;
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
     :root {
         --width: 600px;
         --container-padding: 0 20px;

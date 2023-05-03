@@ -38,7 +38,7 @@
 /* Media query for mobile devices */
 @media screen and (max-width: 1023.98px) {
     :root {
-        --width: 720px;
+        --width: 740px;
         --container-padding: 0 20px;
         --font-16: 16.7px;
         --font-25: 20px;

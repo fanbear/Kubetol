@@ -226,7 +226,7 @@ $(document).ready(function () {
 
 
     //Main page slider
-    $(".main-video__slider").owlCarousel({
+    $(".main-video__sldier").owlCarousel({
         items: 1,
         loop: false,
         dots: true,
@@ -266,7 +266,7 @@ $(document).ready(function () {
                 items: 2
             },
             768: {
-                items: 1,
+                items: 1
             }
         }
     });
@@ -301,12 +301,10 @@ $(document).ready(function () {
                 nav: false,
             },
             900: {
-                items: 2,
-                nav: false,
+                items: 2
             },
             768: {
-                items: 1,
-                nav: false,
+                items: 1
             }
         }
     });

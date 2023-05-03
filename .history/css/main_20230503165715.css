@@ -1705,7 +1705,7 @@ footer {
     }
 
     .kubetol-shipped__slider .slider-caption__item {
-        width: 50%;
+        width: auto;
         justify-content: center;
         margin-bottom: 30px;
     }

@@ -226,7 +226,7 @@ $(document).ready(function () {
 
 
     //Main page slider
-    $(".main-video__slider").owlCarousel({
+    $(".main-video__sldier").owlCarousel({
         items: 1,
         loop: false,
         dots: true,
@@ -248,7 +248,7 @@ $(document).ready(function () {
 
     //Bsetseller sldier
     $(".bestseller__slider").owlCarousel({
-        items: 1,
+        items: 4,
         loop: true,
         dots: false,
         nav: true,
@@ -262,11 +262,8 @@ $(document).ready(function () {
             1024: {
                 items: 2,
             },
-            900: {
-                items: 2
-            },
-            768: {
-                items: 1,
+            1023: {
+                item: 1
             }
         }
     });
@@ -300,13 +297,8 @@ $(document).ready(function () {
                 items: 2,
                 nav: false,
             },
-            900: {
-                items: 2,
-                nav: false,
-            },
-            768: {
-                items: 1,
-                nav: false,
+            1023: {
+                item: 1
             }
         }
     });

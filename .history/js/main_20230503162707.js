@@ -301,12 +301,10 @@ $(document).ready(function () {
                 nav: false,
             },
             900: {
-                items: 2,
-                nav: false,
+                items: 2
             },
             768: {
-                items: 1,
-                nav: false,
+                items: 1
             }
         }
     });

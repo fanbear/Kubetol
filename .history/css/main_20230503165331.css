@@ -1706,8 +1706,6 @@ footer {
 
     .kubetol-shipped__slider .slider-caption__item {
         width: 50%;
-        justify-content: center;
-        margin-bottom: 30px;
     }
 
     .bestseller__slider .slider-caption {
@@ -1732,9 +1730,5 @@ footer {
     .news-slide img {
         border-radius: 60px;
         height: auto;
-    }
-
-    .slider-caption__arrow {
-        margin: 0 40px;
     }
 }

@@ -575,7 +575,7 @@
     margin-top: 60px;
     background-color: var(--yellow-color);
     border: none;
-    width: var(--btn-width);
+    width: 361px;
     height: 69px;
     font-size: var(--font-25);
     text-transform: uppercase;
@@ -1682,7 +1682,6 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
-        justify-items: center;
     }
 
     .kubetol-digits__figure {
@@ -1706,35 +1705,11 @@ footer {
 
     .kubetol-shipped__slider .slider-caption__item {
         width: 50%;
-        justify-content: center;
-        margin-bottom: 30px;
     }
 
     .bestseller__slider .slider-caption {
         min-height: 600px;
-        width: 450px;
+        width: 400px;
         margin: 0 auto;
-    }
-
-    .bestseller__slider .owl-item {
-        display: flex;
-        justify-content: center;
-    }
-
-    .bestseller__slider-title {
-        font-size: 35px;
-    }
-
-    .why-as__item::before {
-        font-size: 175px;
-    }
-
-    .news-slide img {
-        border-radius: 60px;
-        height: auto;
-    }
-
-    .slider-caption__arrow {
-        margin: 0 40px;
     }
 }

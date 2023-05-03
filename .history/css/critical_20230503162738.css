@@ -1040,12 +1040,4 @@ header {
     .slider-video__wrapper .owl-dots {
         right: 80px;
     }
-
-    .language-active {
-        font-size: 30px;
-    }
-
-    .header-menu__list ul li a {
-        font-size: 30px;
-    }
 }
