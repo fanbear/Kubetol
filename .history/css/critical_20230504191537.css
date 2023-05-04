@@ -1086,14 +1086,8 @@ header {
         justify-content: center;
     }
 
-    .error-page__btn a:nth-child(1) {
+    .error-page__btn a {
         margin-left: 0;
     }
-
-    .news-text img {
-        width: 100%;
-        height: auto;
-    }
-
 
 }

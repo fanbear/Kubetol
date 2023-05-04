@@ -1767,14 +1767,4 @@ tbody tr:nth-child(1) td {
     table {
         font-size: 18px;
     }
-
-    .spec-text img {
-        float: none;
-        width: 100%;
-        height: auto;
-    }
-
-    .search-title {
-        font-size: 65px;
-    }
 }

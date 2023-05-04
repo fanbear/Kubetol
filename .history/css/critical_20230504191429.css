@@ -1083,17 +1083,5 @@ header {
     .error-page__btn {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
     }
-
-    .error-page__btn a:nth-child(1) {
-        margin-left: 0;
-    }
-
-    .news-text img {
-        width: 100%;
-        height: auto;
-    }
-
-
 }

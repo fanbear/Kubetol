@@ -1773,8 +1773,4 @@ tbody tr:nth-child(1) td {
         width: 100%;
         height: auto;
     }
-
-    .search-title {
-        font-size: 65px;
-    }
 }

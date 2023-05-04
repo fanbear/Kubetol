@@ -1183,10 +1183,6 @@ footer {
     overflow: hidden;
 }
 
-.option__body-item table {
-    border: 0;
-}
-
 .option__body-active {
     position: relative;
     z-index: 1;
@@ -1765,16 +1761,6 @@ tbody tr:nth-child(1) td {
     }
 
     table {
-        font-size: 18px;
-    }
-
-    .spec-text img {
-        float: none;
-        width: 100%;
-        height: auto;
-    }
-
-    .search-title {
-        font-size: 65px;
+        font-size: 16px;
     }
 }

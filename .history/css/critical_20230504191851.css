@@ -1095,5 +1095,7 @@ header {
         height: auto;
     }
 
-
+    .product-main__actions-btn div {
+        width: 320px;
+    }
 }

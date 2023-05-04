@@ -1058,42 +1058,6 @@ header {
     }
 
     .about-desc {
-        background-position: 45% 50%;
+        background-position: right center;
     }
-
-    .about-desc::after {
-        width: 360px;
-        height: 100%;
-        background-repeat: no-repeat;
-    }
-
-    .top-slider .item-slider {
-        background-position: 65% 50%;
-    }
-
-    .error-page__title {
-        font-size: 340px;
-    }
-
-    .error-page_subtitle {
-        font-size: 100px;
-        margin-top: -100px;
-    }
-
-    .error-page__btn {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .error-page__btn a:nth-child(1) {
-        margin-left: 0;
-    }
-
-    .news-text img {
-        width: 100%;
-        height: auto;
-    }
-
-
 }
