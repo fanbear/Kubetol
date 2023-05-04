@@ -1678,7 +1678,7 @@ tbody tr:nth-child(1) td {
     }
 }
 
-@media screen and (max-width: 1024.98px) {
+@media screen and (max-width: 1023.98px) {
 
     .trust-us__wrapper {
         display: grid;
