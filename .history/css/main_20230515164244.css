@@ -1970,6 +1970,6 @@ tbody tr:nth-child(1) td {
     }
 
     .kubetol-digits__wrapper-item {
-        margin: 0 10px 20px 10px;
+        margin-right: 20px;
     }
 }

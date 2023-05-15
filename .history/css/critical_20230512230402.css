@@ -1120,14 +1120,14 @@ header {
     }
 
     .video-slide__yellow-figure {
-        min-width: 85%;
-        min-height: 78.5%;
+        min-width: 65%;
+        min-height: 70%;
         width: 65%;
     }
 
     .video-slide__yellow-figure img {
         width: auto !important;
-        height: 290px !important;
+        height: 350px !important;
     }
 
     .video-wrapper__subtitle {
@@ -1138,13 +1138,13 @@ header {
 
     .main-video__slider .slider-item {
         min-width: auto;
-        min-height: 480px;
+        min-height: 450px;
         margin-bottom: 80px;
     }
 
     .main-video__slider .slider-item video {
-        height: 480px;
-        position: relative;
+        height: 450px;
+        position: re;
     }
 
     .video-wrapper__title {
@@ -1169,16 +1169,7 @@ header {
         bottom: 0;
         top: 0;
         margin: 0 auto;
-        width: 100% !important;
+        width: auto !important;
         height: 100% !important;
-    }
-
-    .video-item {
-        position: static;
-    }
-
-    .video-wrapper__button {
-        position: absolute;
-        top: 430px;
     }
 }

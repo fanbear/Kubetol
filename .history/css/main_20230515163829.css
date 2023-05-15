@@ -1947,29 +1947,7 @@ tbody tr:nth-child(1) td {
     }
 
     .reviews-img__quotes {
-        left: calc(50% - 20px);
+        left: calc(50% - 60px);
         transform: translate(-50%, 0);
-    }
-
-    .reviews-item {
-        margin-top: 30px;
-    }
-
-    .revies-item__title {
-        font-size: 25px;
-    }
-
-    .reviews .owl-nav {
-        left: 50%;
-        transform: translate(-50%, 0);
-        bottom: -90px;
-    }
-
-    .reviews {
-        padding-bottom: 120px;
-    }
-
-    .kubetol-digits__wrapper-item {
-        margin: 0 10px 20px 10px;
     }
 }

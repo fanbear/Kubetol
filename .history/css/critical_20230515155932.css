@@ -1173,12 +1173,8 @@ header {
         height: 100% !important;
     }
 
-    .video-item {
-        position: static;
-    }
-
     .video-wrapper__button {
         position: absolute;
-        top: 430px;
+        bottom: -80px
     }
 }

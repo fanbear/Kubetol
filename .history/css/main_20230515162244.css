@@ -1821,7 +1821,7 @@ tbody tr:nth-child(1) td {
     }
 
     .bestseller__slider .slider-caption {
-        width: 100%;
+        width: 320px;
         padding: 0 40px;
     }
 
@@ -1882,94 +1882,15 @@ tbody tr:nth-child(1) td {
     }
 
     .kubetol-shipped__slider {
-        margin-top: 120px;
+        margin-top: 80px;
     }
 
     .kubetol-shipped__slider .slider-caption__item {
         width: 100%;
-        justify-content: flex-start;
     }
 
     .kubetol-shipped__slider .owl-stage {
         padding-top: 0;
-        padding-bottom: 85px;
-    }
-
-    .kubetol-shipped__slider .owl-nav {
-        bottom: 0;
-        top: auto;
-    }
-
-    .kubetol-shipped__title {
-        text-align: center;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    .kubetol-shipped {
-        margin-top: 75px;
-    }
-
-    .slider-caption__arrow {
-        display: none;
-    }
-
-    .slider-caption__date {
-        top: auto;
-        bottom: -66px
-    }
-
-    .kubetol-digits__button {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .kubetol-digits__wrapper {
-        justify-content: center;
-    }
-
-    .main-from__btn {
-        position: absolute;
-        bottom: -45px;
-        left: 50%;
-        margin: 0 auto;
-        transform: translate(-50%, 0);
-    }
-
-    .main-from__item {
-        margin-bottom: 60px;
-    }
-
-    .reviews-slider .flex-container {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .reviews-img__quotes {
-        left: calc(50% - 20px);
-        transform: translate(-50%, 0);
-    }
-
-    .reviews-item {
-        margin-top: 30px;
-    }
-
-    .revies-item__title {
-        font-size: 25px;
-    }
-
-    .reviews .owl-nav {
-        left: 50%;
-        transform: translate(-50%, 0);
-        bottom: -90px;
-    }
-
-    .reviews {
         padding-bottom: 120px;
-    }
-
-    .kubetol-digits__wrapper-item {
-        margin: 0 10px 20px 10px;
     }
 }

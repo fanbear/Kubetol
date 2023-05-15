@@ -1958,18 +1958,4 @@ tbody tr:nth-child(1) td {
     .revies-item__title {
         font-size: 25px;
     }
-
-    .reviews .owl-nav {
-        left: 50%;
-        transform: translate(-50%, 0);
-        bottom: -90px;
-    }
-
-    .reviews {
-        padding-bottom: 120px;
-    }
-
-    .kubetol-digits__wrapper-item {
-        margin: 0 10px 20px 10px;
-    }
 }

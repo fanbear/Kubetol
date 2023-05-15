@@ -1179,6 +1179,6 @@ header {
 
     .video-wrapper__button {
         position: absolute;
-        top: 430px;
+        bottom: -87px;
     }
 }
