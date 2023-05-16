@@ -2005,8 +2005,5 @@ tbody tr:nth-child(1) td {
         margin-top: 155px;
     }
 
-    .country-list__item::before {
-        left: -30px;
-        top: 10px;
-    }
+    .country-list__item::before {}
 }
