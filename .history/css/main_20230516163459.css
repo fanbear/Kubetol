@@ -2069,12 +2069,7 @@ tbody tr:nth-child(1) td {
         top: 14px;
     }
 
-    .category-page .trust-us {
-        margin-top: 180px;
-        padding-bottom: 40px;
-    }
-
-    .category-page .trust-us__desc {
-        margin-top: 20px;
+    .trust-us {
+        margin-top: 150px;
     }
 }

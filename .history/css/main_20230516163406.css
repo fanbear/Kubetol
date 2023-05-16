@@ -2068,13 +2068,4 @@ tbody tr:nth-child(1) td {
     .category-list__item li:before {
         top: 14px;
     }
-
-    .category-page .trust-us {
-        margin-top: 180px;
-        padding-bottom: 40px;
-    }
-
-    .category-page .trust-us__desc {
-        margin-top: 20px;
-    }
 }

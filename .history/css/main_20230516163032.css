@@ -2028,11 +2028,7 @@ tbody tr:nth-child(1) td {
     }
 
     .category-list {
-        margin-top: 0;
-    }
-
-    .category-list__item {
-        margin-top: 60px;
+        margin-top: 50px;
     }
 
     .category-list__item ul li {
@@ -2051,30 +2047,5 @@ tbody tr:nth-child(1) td {
         font-size: 33px;
     }
 
-    .category-list__item li:hover {
-        margin-bottom: 10px;
-    }
-
-    .category-list__item ul li a {
-        margin-top: 20px;
-        height: 0;
-    }
-
-    .category-list__item ul li:hover a {
-        margin-top: 20px;
-        height: 52px;
-    }
-
-    .category-list__item li:before {
-        top: 14px;
-    }
-
-    .category-page .trust-us {
-        margin-top: 180px;
-        padding-bottom: 40px;
-    }
-
-    .category-page .trust-us__desc {
-        margin-top: 20px;
-    }
+    .category-list__item ul li a {}
 }
