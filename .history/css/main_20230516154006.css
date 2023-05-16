@@ -1991,13 +1991,12 @@ tbody tr:nth-child(1) td {
     }
 
     .country-list__item-title {
-        font-size: 35px;
+        font-size: 37px;
     }
 
     .about-locations {
         background-position: center 65%;
         background-size: contain;
-        padding: 18px 0 80px 0;
     }
 
     .about-locations .kubetol-digits__wrapper {

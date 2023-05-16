@@ -1197,7 +1197,7 @@ header {
     .about-desc {
         background-image: unset !important;
         background-color: var(--yellow-color);
-        padding: 0 0 20px 0;
+        padding: 0 0 130px 0;
     }
 
     .about-desc__item:nth-child(1) {
@@ -1227,6 +1227,4 @@ header {
     .about-desc__title {
         margin-top: 54px;
     }
-
-
 }

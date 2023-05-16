@@ -583,10 +583,6 @@ header {
     padding: 274px 0 130px 0;
 }
 
-.about-desc_img-mob {
-    display: none;
-}
-
 .about-desc__title {
     border-bottom: 2px solid var(--white-color);
     width: 100%;
@@ -1119,14 +1115,6 @@ header {
         display: flex;
     }
 
-    .mob-logo {
-        display: flex;
-    }
-
-    .header-logotype {
-        margin-right: auto;
-    }
-
     .slider-video__text {
         display: none;
     }
@@ -1197,36 +1185,15 @@ header {
     .about-desc {
         background-image: unset !important;
         background-color: var(--yellow-color);
-        padding: 0 0 20px 0;
     }
 
     .about-desc__item:nth-child(1) {
         width: 100%;
         padding-right: 0;
-        order: 2;
     }
 
     .about-desc__item:nth-child(2) {
-        order: 1;
+        order: 0;
         width: 100%;
-        padding: 0;
     }
-
-    .about-desc::after {
-        display: none;
-    }
-
-    .about-desc_img-mob {
-        display: block;
-        margin: 0 calc((100% - 100%) - 20px);
-        width: calc(100% + 40px);
-        height: auto;
-        padding: 0
-    }
-
-    .about-desc__title {
-        margin-top: 54px;
-    }
-
-
 }

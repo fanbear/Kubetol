@@ -1228,5 +1228,7 @@ header {
         margin-top: 54px;
     }
 
-
+    .about-locations {
+        padding: 18px 0 80px 0;
+    }
 }
