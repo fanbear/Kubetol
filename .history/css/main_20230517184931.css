@@ -2249,33 +2249,4 @@ tbody tr:nth-child(1) td {
         width: 100%;
         height: auto;
     }
-
-    .result-item__title a {
-        font-size: 22px;
-    }
-
-    .result-item__desc {
-        margin-top: 15px;
-    }
-
-    .search-result__btn {
-        margin-top: 30px;
-        margin-bottom: 50px;
-    }
-
-    .spec-text {
-        margin-top: 0;
-    }
-
-    .spec-bottom__img {
-        display: none;
-    }
-
-    .spec-img-container a {
-        width: 50%;
-    }
-
-    .spec-download {
-        margin: 40px 0 135px 0;
-    }
 }

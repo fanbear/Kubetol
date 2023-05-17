@@ -1270,11 +1270,8 @@ header {
         font-size: 34px;
     }
 
-    .spec-text__title h1 {
-        font-size: 40px;
-        color: var(--yellow-color);
-        margin-bottom: 0;
+    .search-title {
+        font-size: 50px;
+        max-width: 100%;
     }
-
-
 }

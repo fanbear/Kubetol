@@ -2275,7 +2275,7 @@ tbody tr:nth-child(1) td {
         width: 50%;
     }
 
-    .spec-download {
-        margin: 40px 0 135px 0;
+    .spec-img-container {
+        justify-content: center;
     }
 }

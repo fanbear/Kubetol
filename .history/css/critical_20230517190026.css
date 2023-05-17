@@ -1276,5 +1276,7 @@ header {
         margin-bottom: 0;
     }
 
-
+    .spec-img-container {
+        justify-content: center;
+    }
 }

@@ -2270,12 +2270,4 @@ tbody tr:nth-child(1) td {
     .spec-bottom__img {
         display: none;
     }
-
-    .spec-img-container a {
-        width: 50%;
-    }
-
-    .spec-download {
-        margin: 40px 0 135px 0;
-    }
 }

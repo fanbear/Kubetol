@@ -2262,20 +2262,4 @@ tbody tr:nth-child(1) td {
         margin-top: 30px;
         margin-bottom: 50px;
     }
-
-    .spec-text {
-        margin-top: 0;
-    }
-
-    .spec-bottom__img {
-        display: none;
-    }
-
-    .spec-img-container a {
-        width: 50%;
-    }
-
-    .spec-download {
-        margin: 40px 0 135px 0;
-    }
 }
