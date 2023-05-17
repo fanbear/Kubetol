@@ -2130,21 +2130,4 @@ tbody tr:nth-child(1) td {
     .grid__item-img {
         height: 294px;
     }
-
-    .yellow-line .flex-container {
-        flex-wrap: wrap;
-    }
-
-    .yellow-line {
-        height: 182px;
-    }
-
-    .yellow__text {
-        text-align: center;
-    }
-
-    .news-category__btn {
-        margin-top: 50px;
-        margin-bottom: 80px;
-    }
 }

@@ -87,10 +87,6 @@ html, body {
     flex-wrap: nowrap;
 }
 
-.flex-wrap {
-    flex-wrap: wrap;
-}
-
 .no-transform {
     transform: rotate(0);
     transition: 0;
@@ -185,6 +181,9 @@ a:hover {
     align-items: center;
 }
 
+.hidden-xs {
+    display: none;
+}
 
 .hidden-sm {
     display: none;
@@ -1233,24 +1232,5 @@ header {
         margin-top: 54px;
     }
 
-    .error-page__title {
-        font-size: 180px;
-    }
 
-    .error-page_subtitle {
-        font-size: 59px;
-        margin-top: -67px;
-    }
-
-    .error-page__btn a {
-        width: 320px;
-    }
-
-    .error-page__action {
-        padding-bottom: 80px;
-    }
-
-    .news-category__top {
-        padding: 113px 0 113px 0;
-    }
 }

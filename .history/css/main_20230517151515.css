@@ -2138,13 +2138,4 @@ tbody tr:nth-child(1) td {
     .yellow-line {
         height: 182px;
     }
-
-    .yellow__text {
-        text-align: center;
-    }
-
-    .news-category__btn {
-        margin-top: 50px;
-        margin-bottom: 80px;
-    }
 }

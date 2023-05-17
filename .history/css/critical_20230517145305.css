@@ -1236,21 +1236,4 @@ header {
     .error-page__title {
         font-size: 180px;
     }
-
-    .error-page_subtitle {
-        font-size: 59px;
-        margin-top: -67px;
-    }
-
-    .error-page__btn a {
-        width: 320px;
-    }
-
-    .error-page__action {
-        padding-bottom: 80px;
-    }
-
-    .news-category__top {
-        padding: 113px 0 113px 0;
-    }
 }

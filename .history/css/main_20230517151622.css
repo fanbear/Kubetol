@@ -2142,9 +2142,4 @@ tbody tr:nth-child(1) td {
     .yellow__text {
         text-align: center;
     }
-
-    .news-category__btn {
-        margin-top: 50px;
-        margin-bottom: 80px;
-    }
 }

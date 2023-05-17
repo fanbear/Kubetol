@@ -2105,46 +2105,4 @@ tbody tr:nth-child(1) td {
     .contact-map__title {
         font-size: 37px;
     }
-
-    .contact-map__img iframe {
-        height: 420px;
-    }
-
-    .contact-top__form .main-from__item {
-        box-sizing: border-box;
-        padding: 0 10px;
-    }
-
-    .contact-top__form-btn {
-        margin-top: 45px;
-    }
-
-    .contact-top__form-text {
-        max-width: 100%;
-    }
-
-    .grid-container__news {
-        grid-template-columns: 1fr;
-    }
-
-    .grid__item-img {
-        height: 294px;
-    }
-
-    .yellow-line .flex-container {
-        flex-wrap: wrap;
-    }
-
-    .yellow-line {
-        height: 182px;
-    }
-
-    .yellow__text {
-        text-align: center;
-    }
-
-    .news-category__btn {
-        margin-top: 50px;
-        margin-bottom: 80px;
-    }
 }
