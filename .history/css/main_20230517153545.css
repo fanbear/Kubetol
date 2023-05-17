@@ -2189,41 +2189,4 @@ tbody tr:nth-child(1) td {
     .product-body__caption-mob {
         display: block;
     }
-
-    .product-tab__body {
-        margin-top: 30px;
-    }
-
-    .product-img {
-        margin: 20px 0;
-    }
-
-    .product-main__actions-btn {
-        margin: 0 auto;
-    }
-
-    .product-main__actions-social {
-        justify-content: center;
-    }
-
-    .product-option__head {
-        overflow: scroll;
-    }
-
-    .option__head-item {
-        margin-right: 20px;
-        white-space: nowrap;
-    }
-
-    table {
-        font-size: 14px;
-    }
-
-    .option__body-item__list li {
-        margin-bottom: 8px;
-    }
-
-    .option__body-item__list li span:nth-child(2) {
-        min-width: 135px;
-    }
 }

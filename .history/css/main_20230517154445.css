@@ -2218,12 +2218,4 @@ tbody tr:nth-child(1) td {
     table {
         font-size: 14px;
     }
-
-    .option__body-item__list li {
-        margin-bottom: 8px;
-    }
-
-    .option__body-item__list li span:nth-child(2) {
-        min-width: 135px;
-    }
 }
