@@ -2298,12 +2298,4 @@ tbody tr:nth-child(1) td {
         transition: 0.6s !important;
         top: 14px !important;
     }
-
-    .category-list__item li a {
-        font-size: 18px;
-    }
-
-    .top-slider__item-btn a {
-        margin: 0 auto;
-    }
 }

@@ -2302,8 +2302,4 @@ tbody tr:nth-child(1) td {
     .category-list__item li a {
         font-size: 18px;
     }
-
-    .top-slider__item-btn a {
-        margin: 0 auto;
-    }
 }

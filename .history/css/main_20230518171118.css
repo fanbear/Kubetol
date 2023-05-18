@@ -2060,11 +2060,12 @@ tbody tr:nth-child(1) td {
     }
 
     .category-list__item ul li a {
-        margin: 20px auto 0 auto;
+        margin-top: 20px;
         height: 0;
     }
 
     .category-list__item ul li:hover a {
+        margin-top: 20px;
         height: 52px;
     }
 
@@ -2276,34 +2277,5 @@ tbody tr:nth-child(1) td {
 
     .spec-download {
         margin: 40px 0 135px 0;
-    }
-
-    .category-page .trust-us__title {
-        margin-top: -100px;
-    }
-
-    .category-hover a {
-        height: 52px !important;
-        opacity: 1 !important;
-        transition: 0.6s !important;
-    }
-
-    .category-hover {
-        margin-bottom: 10px;
-        font-weight: bold;
-    }
-
-    .category-hover:before {
-        opacity: 1 !important;
-        transition: 0.6s !important;
-        top: 14px !important;
-    }
-
-    .category-list__item li a {
-        font-size: 18px;
-    }
-
-    .top-slider__item-btn a {
-        margin: 0 auto;
     }
 }

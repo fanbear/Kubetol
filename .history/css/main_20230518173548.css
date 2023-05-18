@@ -2295,15 +2295,7 @@ tbody tr:nth-child(1) td {
 
     .category-hover:before {
         opacity: 1 !important;
-        transition: 0.6s !important;
-        top: 14px !important;
-    }
-
-    .category-list__item li a {
-        font-size: 18px;
-    }
-
-    .top-slider__item-btn a {
-        margin: 0 auto;
+        transition: 0.6s important;
+        top: 14px important;
     }
 }

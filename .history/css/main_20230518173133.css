@@ -2287,23 +2287,4 @@ tbody tr:nth-child(1) td {
         opacity: 1 !important;
         transition: 0.6s !important;
     }
-
-    .category-hover {
-        margin-bottom: 10px;
-        font-weight: bold;
-    }
-
-    .category-hover:before {
-        opacity: 1 !important;
-        transition: 0.6s !important;
-        top: 14px !important;
-    }
-
-    .category-list__item li a {
-        font-size: 18px;
-    }
-
-    .top-slider__item-btn a {
-        margin: 0 auto;
-    }
 }

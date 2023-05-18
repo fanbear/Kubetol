@@ -1279,6 +1279,5 @@ header {
     .item-office__item {
         flex-wrap: wrap;
         display: flex;
-        flex-direction: column;
     }
 }

@@ -210,17 +210,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Category page ------------------------------------------
     const categoryItemFirst = document.querySelector('.category-list__item ul li');
-    const categoryItemList = document.querySelectorAll('.category-list__item ul li');
 
     if (categoryItemFirst) {
-        categoryItemFirst.classList.add('category-hover');
-
-        categoryItemList.forEach(item => {
-            item.addEventListener('click', () => {
-                categoryItemFirst.classList.remove('category-hover');
-            })
-        })
+        categoryItemFirst.classList.add('category-hover')
     }
+    console.log(categoryItemFirst)
 
 })
 
